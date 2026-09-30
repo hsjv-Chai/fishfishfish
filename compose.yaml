@@ -1,0 +1,52 @@
+services:
+  trader:
+    image: fishfishfish-trader
+    build: &build
+      context: .
+      args:
+        PYTHON_IMAGE: ${PYTHON_IMAGE:-python:3.12-slim@sha256:f77ac9e44ae96ef2c90b8053ea08c31f8be030f824196b0ae4db6d462c84e51f}
+    init: true
+    restart: unless-stopped
+    command: ["--config", "/app/config.toml", "run"]
+    volumes:
+      - ./config.toml:/app/config.toml:ro
+      - ./data:/app/data
+      - ./secrets:/app/secrets:ro
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    stop_grace_period: 120s
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sqlite3,json,time,tomllib; c=tomllib.load(open('/app/config.toml','rb')); d=sqlite3.connect('file:'+c['database']+'?mode=ro',uri=True); r=d.execute(\"select value from kv where key='heartbeat'\").fetchone(); assert r and time.time()*1000-json.loads(r[0])['at']<60000"]
+      interval: 30s
+      timeout: 5s
+      start_period: 60s
+      retries: 2
+  watchdog:
+    build: *build
+    init: true
+    restart: unless-stopped
+    command: ["--config", "/app/config.toml", "watchdog"]
+    volumes:
+      - ./config.toml:/app/config.toml:ro
+      - ./data:/app/data
+      - ./secrets:/app/secrets:ro
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+  login:
+    profiles: [tools]
+    image: fishfishfish-trader
+    init: true
+    command: ["--config", "/app/config.toml", "login"]
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./config.toml:/app/config.toml:ro
+      - ./secrets:/app/secrets:rw
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]

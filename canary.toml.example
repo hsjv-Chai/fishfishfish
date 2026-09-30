@@ -1,0 +1,12 @@
+mode = "canary"
+capital = 50.0
+database = "data/canary.sqlite3"
+session_file = "secrets/session.json"
+evidence_dir = "data/evidence"
+smtp_host = ""
+smtp_port = 465
+smtp_user = ""
+smtp_from = ""
+smtp_to = ""
+smtp_password_file = "secrets/smtp-password"
+smtp_security = "ssl"

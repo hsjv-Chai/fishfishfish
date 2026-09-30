@@ -1,0 +1,14 @@
+# Version 1 risk values are fixed; keep separate databases for each mode.
+mode = "shadow"
+capital = 50.0
+database = "data/shadow.sqlite3"
+session_file = "secrets/session.json"
+evidence_dir = "data/evidence"
+
+smtp_host = "smtp.gmail.com"
+smtp_port = 465
+smtp_user = "hsjavt@gmail.com"
+smtp_from = "hsjavt@gmail.com"
+smtp_to = "hsjavt@gmail.com"
+smtp_password_file = "secrets/smtp-password"
+smtp_security = "ssl"

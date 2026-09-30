@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+data/
+secrets/
+.env
+.DS_Store
+*.sqlite*
+*.lock

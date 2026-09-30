@@ -1,0 +1,489 @@
+{
+  "code_sha256": "3f48aeba5c62fd2d69fafc16481b59bb2e258fc048487e87cd91596ddb2e68ff",
+  "data_sha256": "86741fd5795d2869c5342e4156300d577ae9d1c9870286215da33d4fcc7f34b3",
+  "evaluation_start": "2024-09",
+  "partitions": {
+    "development": {
+      "0": {
+        "net_return": 0.0017599999999999838,
+        "max_drawdown": 0.028317735977899883,
+        "trades": 100,
+        "boundary_closures": 0,
+        "daily_sharpe": 0.07044334219250202,
+        "exposure": 0.2123744292237443,
+        "final_fish": 50.088,
+        "halt": "",
+        "baselines": {
+          "cash": {
+            "net_return": 0.0,
+            "max_drawdown": 0,
+            "trades": 0,
+            "boundary_closures": 0,
+            "daily_sharpe": null,
+            "exposure": 0.0,
+            "final_fish": 50.0
+          },
+          "btc_buy_hold": {
+            "net_return": 0.835124,
+            "max_drawdown": 0.3167220723489812,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 1.5782391684203372,
+            "exposure": 1.0,
+            "final_fish": 91.7562
+          },
+          "btc20_cash80": {
+            "net_return": 0.16702400000000006,
+            "max_drawdown": 0.10020354833803036,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 1.323808000858887,
+            "exposure": 1.0,
+            "final_fish": 58.3512
+          }
+        }
+      },
+      "0.0005": {
+        "net_return": -0.01968800000000004,
+        "max_drawdown": 0.04598634053676354,
+        "trades": 102,
+        "boundary_closures": 0,
+        "daily_sharpe": -0.5939098567482021,
+        "exposure": 0.21073059360730595,
+        "final_fish": 49.0156,
+        "halt": "",
+        "baselines": {
+          "cash": {
+            "net_return": 0.0,
+            "max_drawdown": 0,
+            "trades": 0,
+            "boundary_closures": 0,
+            "daily_sharpe": null,
+            "exposure": 0.0,
+            "final_fish": 50.0
+          },
+          "btc_buy_hold": {
+            "net_return": 0.8332900000000001,
+            "max_drawdown": 0.31672203765227025,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 1.575836565294537,
+            "exposure": 1.0,
+            "final_fish": 91.6645
+          },
+          "btc20_cash80": {
+            "net_return": 0.16665799999999997,
+            "max_drawdown": 0.10013608372910443,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 1.3220026402732865,
+            "exposure": 1.0,
+            "final_fish": 58.3329
+          }
+        }
+      },
+      "0.001": {
+        "net_return": -0.026773999999999964,
+        "max_drawdown": 0.05019060092479999,
+        "trades": 96,
+        "boundary_closures": 0,
+        "daily_sharpe": -0.823173917756259,
+        "exposure": 0.2023820395738204,
+        "final_fish": 48.6613,
+        "halt": "max_drawdown",
+        "baselines": {
+          "cash": {
+            "net_return": 0.0,
+            "max_drawdown": 0,
+            "trades": 0,
+            "boundary_closures": 0,
+            "daily_sharpe": null,
+            "exposure": 0.0,
+            "final_fish": 50.0
+          },
+          "btc_buy_hold": {
+            "net_return": 0.831458,
+            "max_drawdown": 0.31672200288607166,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 1.5734248556180221,
+            "exposure": 1.0,
+            "final_fish": 91.5729
+          },
+          "btc20_cash80": {
+            "net_return": 0.16629000000000005,
+            "max_drawdown": 0.10006686629647932,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 1.3201812267638433,
+            "exposure": 1.0,
+            "final_fish": 58.3145
+          }
+        }
+      },
+      "0.002": {
+        "net_return": -0.032248000000000054,
+        "max_drawdown": 0.05015448759976915,
+        "trades": 52,
+        "boundary_closures": 0,
+        "daily_sharpe": -1.3481517009152921,
+        "exposure": 0.10512747336377473,
+        "final_fish": 48.3876,
+        "halt": "max_drawdown",
+        "baselines": {
+          "cash": {
+            "net_return": 0.0,
+            "max_drawdown": 0,
+            "trades": 0,
+            "boundary_closures": 0,
+            "daily_sharpe": null,
+            "exposure": 0.0,
+            "final_fish": 50.0
+          },
+          "btc_buy_hold": {
+            "net_return": 0.827798,
+            "max_drawdown": 0.31672238480879744,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 1.5685976442956506,
+            "exposure": 1.0,
+            "final_fish": 91.3899
+          },
+          "btc20_cash80": {
+            "net_return": 0.1655580000000001,
+            "max_drawdown": 0.09992984017249051,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 1.3165478229679508,
+            "exposure": 1.0,
+            "final_fish": 58.2779
+          }
+        }
+      }
+    },
+    "validation": {
+      "0": {
+        "net_return": -0.010353999999999974,
+        "max_drawdown": 0.015165177473563385,
+        "trades": 12,
+        "boundary_closures": 0,
+        "daily_sharpe": -2.001707879238525,
+        "exposure": 0.03361724984653162,
+        "final_fish": 49.4823,
+        "halt": "",
+        "baselines": {
+          "cash": {
+            "net_return": 0.0,
+            "max_drawdown": 0,
+            "trades": 0,
+            "boundary_closures": 0,
+            "daily_sharpe": null,
+            "exposure": 0.0,
+            "final_fish": 50.0
+          },
+          "btc_buy_hold": {
+            "net_return": -0.38141400000000003,
+            "max_drawdown": 0.5235947377999993,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": -1.7867654702408473,
+            "exposure": 1.0,
+            "final_fish": 30.9293
+          },
+          "btc20_cash80": {
+            "net_return": -0.07628400000000002,
+            "max_drawdown": 0.11808713936373516,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": -1.9605764790161329,
+            "exposure": 1.0,
+            "final_fish": 46.1858
+          }
+        }
+      },
+      "0.0005": {
+        "net_return": -0.012237999999999971,
+        "max_drawdown": 0.016716355834428098,
+        "trades": 12,
+        "boundary_closures": 0,
+        "daily_sharpe": -2.3018442793614162,
+        "exposure": 0.03354435236341314,
+        "final_fish": 49.3881,
+        "halt": "",
+        "baselines": {
+          "cash": {
+            "net_return": 0.0,
+            "max_drawdown": 0,
+            "trades": 0,
+            "boundary_closures": 0,
+            "daily_sharpe": null,
+            "exposure": 0.0,
+            "final_fish": 50.0
+          },
+          "btc_buy_hold": {
+            "net_return": -0.38203200000000004,
+            "max_drawdown": 0.5235934586265866,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": -1.7911948865538159,
+            "exposure": 1.0,
+            "final_fish": 30.8984
+          },
+          "btc20_cash80": {
+            "net_return": -0.07640800000000003,
+            "max_drawdown": 0.11799553418402031,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": -1.9659699457679003,
+            "exposure": 1.0,
+            "final_fish": 46.1796
+          }
+        }
+      },
+      "0.001": {
+        "net_return": -0.014175999999999966,
+        "max_drawdown": 0.018353834247558765,
+        "trades": 12,
+        "boundary_closures": 0,
+        "daily_sharpe": -2.5359346287288442,
+        "exposure": 0.03071669736034377,
+        "final_fish": 49.2912,
+        "halt": "",
+        "baselines": {
+          "cash": {
+            "net_return": 0.0,
+            "max_drawdown": 0,
+            "trades": 0,
+            "boundary_closures": 0,
+            "daily_sharpe": null,
+            "exposure": 0.0,
+            "final_fish": 50.0
+          },
+          "btc_buy_hold": {
+            "net_return": -0.38265000000000005,
+            "max_drawdown": 0.5235938161285771,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": -1.7956035121164093,
+            "exposure": 1.0,
+            "final_fish": 30.8675
+          },
+          "btc20_cash80": {
+            "net_return": -0.07652999999999999,
+            "max_drawdown": 0.11790411622276031,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": -1.9712166477160578,
+            "exposure": 1.0,
+            "final_fish": 46.1735
+          }
+        }
+      },
+      "0.002": {
+        "net_return": -0.019187999999999983,
+        "max_drawdown": 0.022843999999999975,
+        "trades": 12,
+        "boundary_closures": 0,
+        "daily_sharpe": -3.243269707866125,
+        "exposure": 0.026534683855125845,
+        "final_fish": 49.0406,
+        "halt": "",
+        "baselines": {
+          "cash": {
+            "net_return": 0.0,
+            "max_drawdown": 0,
+            "trades": 0,
+            "boundary_closures": 0,
+            "daily_sharpe": null,
+            "exposure": 0.0,
+            "final_fish": 50.0
+          },
+          "btc_buy_hold": {
+            "net_return": -0.38388199999999995,
+            "max_drawdown": 0.5235953545379792,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": -1.8043805988787953,
+            "exposure": 1.0,
+            "final_fish": 30.8059
+          },
+          "btc20_cash80": {
+            "net_return": -0.07677800000000001,
+            "max_drawdown": 0.11772263758240986,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": -1.9818252153559723,
+            "exposure": 1.0,
+            "final_fish": 46.1611
+          }
+        }
+      }
+    },
+    "test": {
+      "0": {
+        "net_return": 0.015200000000000102,
+        "max_drawdown": 0.011103682645362656,
+        "trades": 25,
+        "boundary_closures": 1,
+        "daily_sharpe": 1.3141431438891573,
+        "exposure": 0.12915157004830918,
+        "final_fish": 50.76,
+        "halt": "",
+        "baselines": {
+          "cash": {
+            "net_return": 0.0,
+            "max_drawdown": 0,
+            "trades": 0,
+            "boundary_closures": 0,
+            "daily_sharpe": null,
+            "exposure": 0.0,
+            "final_fish": 50.0
+          },
+          "btc_buy_hold": {
+            "net_return": 0.1730879999999999,
+            "max_drawdown": 0.30123808214525427,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 0.9955041763766608,
+            "exposure": 1.0,
+            "final_fish": 58.6544
+          },
+          "btc20_cash80": {
+            "net_return": 0.03461599999999998,
+            "max_drawdown": 0.07113598735054683,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 0.8714188606345988,
+            "exposure": 1.0,
+            "final_fish": 51.7308
+          }
+        }
+      },
+      "0.0005": {
+        "net_return": 0.010693999999999981,
+        "max_drawdown": 0.014322485130771834,
+        "trades": 25,
+        "boundary_closures": 1,
+        "daily_sharpe": 0.9252357264524519,
+        "exposure": 0.12909118357487923,
+        "final_fish": 50.5347,
+        "halt": "",
+        "baselines": {
+          "cash": {
+            "net_return": 0.0,
+            "max_drawdown": 0,
+            "trades": 0,
+            "boundary_closures": 0,
+            "daily_sharpe": null,
+            "exposure": 0.0,
+            "final_fish": 50.0
+          },
+          "btc_buy_hold": {
+            "net_return": 0.17191599999999996,
+            "max_drawdown": 0.3012383494933436,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 0.9903471612267591,
+            "exposure": 1.0,
+            "final_fish": 58.5958
+          },
+          "btc20_cash80": {
+            "net_return": 0.03438199999999991,
+            "max_drawdown": 0.07108216260612954,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 0.8663229565339092,
+            "exposure": 1.0,
+            "final_fish": 51.7191
+          }
+        }
+      },
+      "0.001": {
+        "net_return": 0.006318000000000046,
+        "max_drawdown": 0.017426417161983454,
+        "trades": 25,
+        "boundary_closures": 1,
+        "daily_sharpe": 0.5493006345232737,
+        "exposure": 0.12893644323671496,
+        "final_fish": 50.3159,
+        "halt": "",
+        "baselines": {
+          "cash": {
+            "net_return": 0.0,
+            "max_drawdown": 0,
+            "trades": 0,
+            "boundary_closures": 0,
+            "daily_sharpe": null,
+            "exposure": 0.0,
+            "final_fish": 50.0
+          },
+          "btc_buy_hold": {
+            "net_return": 0.170744,
+            "max_drawdown": 0.30123861737694446,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 0.9851834254925302,
+            "exposure": 1.0,
+            "final_fish": 58.5372
+          },
+          "btc20_cash80": {
+            "net_return": 0.03414800000000007,
+            "max_drawdown": 0.07102640181425302,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 0.8612272055451815,
+            "exposure": 1.0,
+            "final_fish": 51.7074
+          }
+        }
+      },
+      "0.002": {
+        "net_return": -0.008874000000000049,
+        "max_drawdown": 0.023613487629847385,
+        "trades": 26,
+        "boundary_closures": 1,
+        "daily_sharpe": -0.7417249262834605,
+        "exposure": 0.11793855676328502,
+        "final_fish": 49.5563,
+        "halt": "",
+        "baselines": {
+          "cash": {
+            "net_return": 0.0,
+            "max_drawdown": 0,
+            "trades": 0,
+            "boundary_closures": 0,
+            "daily_sharpe": null,
+            "exposure": 0.0,
+            "final_fish": 50.0
+          },
+          "btc_buy_hold": {
+            "net_return": 0.168404,
+            "max_drawdown": 0.3012376872688064,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 0.9748445178683697,
+            "exposure": 1.0,
+            "final_fish": 58.4202
+          },
+          "btc20_cash80": {
+            "net_return": 0.03367999999999993,
+            "max_drawdown": 0.07091835271854963,
+            "trades": 1,
+            "boundary_closures": 0,
+            "daily_sharpe": 0.8509742361631376,
+            "exposure": 1.0,
+            "final_fish": 51.684
+          }
+        }
+      }
+    }
+  },
+  "limitations": [
+    "1-minute OHLC cannot reconstruct 5-second paths; fills approximated conservatively",
+    "intra-minute highs are not sampled for account high-water; live drawdown can differ",
+    "fixed strategy; no optimization on validation or test partition",
+    "each partition starts with 50 fish; no carry-over positions; preceding data only warms indicators"
+  ],
+  "passed": false,
+  "status": "not_qualified"
+}

@@ -1,0 +1,210 @@
+[
+  {
+    "at": 1773721950000,
+    "id": "shadow-f-cc28f90467fa4b48b6264a90c6500f2e",
+    "price": 74087.41578954407,
+    "payout": 67896,
+    "profit": -1249,
+    "reason": "stop"
+  },
+  {
+    "at": 1775957670000,
+    "id": "shadow-f-f0d88ae09f03433bb2d49dbe5397bbf9",
+    "price": 72662.10764887722,
+    "payout": 86728,
+    "profit": -879,
+    "reason": "stop"
+  },
+  {
+    "at": 1776191970000,
+    "id": "shadow-f-6e4df01a94ad407d9c9991b13d68378c",
+    "price": 74078.97576827067,
+    "payout": 102774,
+    "profit": 3200,
+    "reason": "stop"
+  },
+  {
+    "at": 1776337260000,
+    "id": "shadow-f-87b5bd7922eb46ec921b661a5779d6cf",
+    "price": 74251.10457,
+    "payout": 85405,
+    "profit": -863,
+    "reason": "breakdown"
+  },
+  {
+    "at": 1776500190000,
+    "id": "shadow-f-80a9d85d2d59469db4a5702efe5dfad9",
+    "price": 76604.68632333838,
+    "payout": 74417,
+    "profit": 1038,
+    "reason": "stop"
+  },
+  {
+    "at": 1776791790000,
+    "id": "shadow-f-d461de18ba8a4ac9a49f7d8ca5cb7697",
+    "price": 75300.67082071937,
+    "payout": 80252,
+    "profit": -781,
+    "reason": "stop"
+  },
+  {
+    "at": 1776903330000,
+    "id": "shadow-f-51567e67008241adadd18f6984dc24b9",
+    "price": 77788.9341633054,
+    "payout": 75736,
+    "profit": 159,
+    "reason": "stop"
+  },
+  {
+    "at": 1777266990000,
+    "id": "shadow-f-36d96c0620e2418fab823b2c04c7fc0a",
+    "price": 78000.31205024479,
+    "payout": 99962,
+    "profit": -163,
+    "reason": "stop"
+  },
+  {
+    "at": 1777469730000,
+    "id": "shadow-f-10ccabe1590f44f8932ef3802c899915",
+    "price": 76530.87341606374,
+    "payout": 99028,
+    "profit": -1064,
+    "reason": "stop"
+  },
+  {
+    "at": 1777773660000,
+    "id": "shadow-f-694fa75dcbc542288a840438b6de6cb5",
+    "price": 78154.40736,
+    "payout": 101666,
+    "profit": 1787,
+    "reason": "breakdown"
+  },
+  {
+    "at": 1777854090000,
+    "id": "shadow-f-e1acd69cc5484ef4a95d4ab0f556ae03",
+    "price": 78275.66051440175,
+    "payout": 99324,
+    "profit": -913,
+    "reason": "stop"
+  },
+  {
+    "at": 1778076450000,
+    "id": "shadow-f-c6d611da6cf14cdca1ceee30c3c06075",
+    "price": 81142.26550269748,
+    "payout": 99754,
+    "profit": -300,
+    "reason": "stop"
+  },
+  {
+    "at": 1778445870000,
+    "id": "shadow-f-3227db91d0bd4ebfb33d296026fee39e",
+    "price": 80724.46329661823,
+    "payout": 99736,
+    "profit": -258,
+    "reason": "stop"
+  },
+  {
+    "at": 1778821260000,
+    "id": "shadow-f-35c88df2e0aa4f65bbcc7d5e34c696cc",
+    "price": 80619.3,
+    "payout": 98879,
+    "profit": -712,
+    "reason": "breakdown"
+  },
+  {
+    "at": 1779059310000,
+    "id": "shadow-f-a340ff5158194645b58491c82a2455f5",
+    "price": 77741.37011047336,
+    "payout": 98794,
+    "profit": -1006,
+    "reason": "stop"
+  },
+  {
+    "at": 1784699010000,
+    "id": "shadow-f-3eebfeae2a224864ab96e15ed13083b4",
+    "price": 65918.36589417332,
+    "payout": 80171,
+    "profit": 325,
+    "reason": "stop"
+  },
+  {
+    "at": 1785155610000,
+    "id": "shadow-f-bae5cd8fa07640f7a81df126010973a2",
+    "price": 64814.46182805599,
+    "payout": 99977,
+    "profit": 313,
+    "reason": "stop"
+  },
+  {
+    "at": 1785338370000,
+    "id": "shadow-f-297a962424e44620bb479ee32ca17984",
+    "price": 63903.48791893974,
+    "payout": 98606,
+    "profit": -1120,
+    "reason": "stop"
+  },
+  {
+    "at": 1785463260000,
+    "id": "shadow-f-d9a3ab21520149f3b8789a6eda7be98d",
+    "price": 64477.458,
+    "payout": 98894,
+    "profit": -608,
+    "reason": "breakdown"
+  },
+  {
+    "at": 1786238730000,
+    "id": "shadow-f-1fec0820c3984d66a832877b1b7224a7",
+    "price": 64860.81518891074,
+    "payout": 98821,
+    "profit": -560,
+    "reason": "stop"
+  },
+  {
+    "at": 1786315050000,
+    "id": "shadow-f-3ce94846f5954f84a847b0555298b9ac",
+    "price": 64968.92972969259,
+    "payout": 98758,
+    "profit": -511,
+    "reason": "stop"
+  },
+  {
+    "at": 1787312070000,
+    "id": "shadow-f-7bcc7139ed2f44569aee30d6ef2b987e",
+    "price": 76408.91948332351,
+    "payout": 75575,
+    "profit": 6521,
+    "reason": "stop"
+  },
+  {
+    "at": 1787659650000,
+    "id": "shadow-f-05bd3622977640b49bdf7411495dbaf4",
+    "price": 78659.5646010353,
+    "payout": 92344,
+    "profit": 1231,
+    "reason": "stop"
+  },
+  {
+    "at": 1787893260000,
+    "id": "shadow-f-cb3138221e5746f6a8b1bf48417fd154",
+    "price": 79532.07831,
+    "payout": 97953,
+    "profit": -377,
+    "reason": "breakdown"
+  },
+  {
+    "at": 1788122670000,
+    "id": "shadow-f-e8fe2eb6ac59421b9842b32087efc8c3",
+    "price": 78429.52714943084,
+    "payout": 101085,
+    "profit": 443,
+    "reason": "stop"
+  },
+  {
+    "at": 1788220799999,
+    "id": "shadow-f-1f3a3db1ebb749cfae3e430358615bee",
+    "price": 78502.70870999999,
+    "payout": 89525,
+    "profit": -494,
+    "reason": "evaluation_end"
+  }
+]
