@@ -1,0 +1,86 @@
+{
+  "startedAt": "2026-10-02T14:59:55.953Z",
+  "sourceHashes": {
+    "policy.json": "ee7204af2442121c0e98b3edf086e5ee95194676233b0671be48e4099f5d21c3",
+    "strategy.mjs": "0ec120c6b2e97d2326f9cdb97e85de621b802ebf32a8be2226eff7a50c696116",
+    "strategy.test.mjs": "d271e71bd5bc6fe01e0c9ed3f1d16f3397f6837bb92129efe77ca0d21021fdb6",
+    "run.mjs": "63953037a352b040aea57d8f2d202560bbc57b417a70fd5ae724716eeed46ec0"
+  },
+  "policy": {
+    "version": "support-seconds-v1",
+    "symbol": "BTCUSDT",
+    "dataStart": "2025-10-01T00:00:00Z",
+    "dataEndExclusive": "2026-10-01T00:00:00Z",
+    "warmupSeconds": 86400,
+    "startingFish": 50,
+    "leverage": 1,
+    "fee": 0.0002,
+    "minimumFish": 1,
+    "allocationCap": 0.2,
+    "plannedRisk": 0.0025,
+    "sizingExecutionBudgetPerSide": 0.0005,
+    "maximumStopDistance": 0.04,
+    "trend": {
+      "intervalSeconds": 14400,
+      "fastEMA": 50,
+      "slowEMA": 200
+    },
+    "support": {
+      "intervalSeconds": 900,
+      "pivotLeft": 2,
+      "pivotRight": 2,
+      "maximumAgeBars": 96,
+      "atrPeriod": 14,
+      "zoneHalfATR": 0.25,
+      "invalidationATR": 0.5,
+      "maximumConfirmationSeconds": 1800,
+      "maximumEntryAboveSupportATR": 1
+    },
+    "confirmation": {
+      "quietSeconds": 15,
+      "breakoutLookbackSeconds": 10
+    },
+    "exit": {
+      "hourlyATRPeriod": 14,
+      "trailingATR": 3,
+      "maximumHoldingSeconds": 172800,
+      "cooldownSeconds": 21600
+    },
+    "dailyLoss": 0.01,
+    "maximumDrawdown": 0.05,
+    "methods": [
+      "touch",
+      "minute_confirmation",
+      "second_confirmation"
+    ],
+    "scenarios": [
+      {
+        "name": "delay2_no_extra_slippage",
+        "delaySeconds": 2,
+        "slippagePerSide": 0
+      },
+      {
+        "name": "delay2_2bp_each_side",
+        "delaySeconds": 2,
+        "slippagePerSide": 0.0002
+      },
+      {
+        "name": "delay5_5bp_each_side",
+        "delaySeconds": 5,
+        "slippagePerSide": 0.0005
+      },
+      {
+        "name": "delay5_no_extra_slippage",
+        "delaySeconds": 5,
+        "slippagePerSide": 0
+      },
+      {
+        "name": "delay15_no_extra_slippage",
+        "delaySeconds": 15,
+        "slippagePerSide": 0
+      }
+    ],
+    "evidenceStatus": "exploratory_previously_viewed_data_no_parameter_optimization"
+  },
+  "statement": "Rules and scenarios fixed before reading results; previously viewed data; no optimization or live qualification."
+}

@@ -1,0 +1,645 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 139,
+      "finalFish": 52.7888,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 1,
+      "mode": "grid_close",
+      "trades": 139,
+      "finalFish": 52.7888,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 2,
+      "mode": "grid_close",
+      "trades": 139,
+      "finalFish": 52.7888,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 3,
+      "mode": "grid_close",
+      "trades": 139,
+      "finalFish": 52.7888,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 4,
+      "mode": "grid_close",
+      "trades": 144,
+      "finalFish": 52.1861,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 5,
+      "mode": "grid_close",
+      "trades": 144,
+      "finalFish": 52.1861,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 6,
+      "mode": "grid_close",
+      "trades": 144,
+      "finalFish": 52.1861,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 7,
+      "mode": "grid_close",
+      "trades": 144,
+      "finalFish": 52.1861,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 8,
+      "mode": "grid_close",
+      "trades": 139,
+      "finalFish": 52.7888,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 9,
+      "mode": "grid_close",
+      "trades": 139,
+      "finalFish": 52.7888,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 10,
+      "mode": "grid_close",
+      "trades": 139,
+      "finalFish": 52.7888,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 11,
+      "mode": "grid_close",
+      "trades": 139,
+      "finalFish": 52.7888,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 12,
+      "mode": "grid_close",
+      "trades": 143,
+      "finalFish": 52.0899,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 13,
+      "mode": "grid_close",
+      "trades": 143,
+      "finalFish": 52.0899,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 14,
+      "mode": "grid_close",
+      "trades": 143,
+      "finalFish": 52.0899,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 145,
+      "finalFish": 52.2956,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 132,
+      "finalFish": 47.553,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 1,
+      "mode": "grid_close",
+      "trades": 135,
+      "finalFish": 48.8992,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 2,
+      "mode": "grid_close",
+      "trades": 136,
+      "finalFish": 48.9925,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 3,
+      "mode": "grid_close",
+      "trades": 135,
+      "finalFish": 48.9121,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 4,
+      "mode": "grid_close",
+      "trades": 135,
+      "finalFish": 47.8254,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 5,
+      "mode": "grid_close",
+      "trades": 135,
+      "finalFish": 47.8254,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 6,
+      "mode": "grid_close",
+      "trades": 135,
+      "finalFish": 47.8254,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 7,
+      "mode": "grid_close",
+      "trades": 136,
+      "finalFish": 47.9058,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 8,
+      "mode": "grid_close",
+      "trades": 133,
+      "finalFish": 47.6334,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 9,
+      "mode": "grid_close",
+      "trades": 132,
+      "finalFish": 47.553,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 10,
+      "mode": "grid_close",
+      "trades": 132,
+      "finalFish": 47.553,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 11,
+      "mode": "grid_close",
+      "trades": 132,
+      "finalFish": 47.553,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 12,
+      "mode": "grid_close",
+      "trades": 132,
+      "finalFish": 47.553,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 13,
+      "mode": "grid_close",
+      "trades": 132,
+      "finalFish": 47.553,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 14,
+      "mode": "grid_close",
+      "trades": 132,
+      "finalFish": 48.6397,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 136,
+      "finalFish": 47.9058,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 17,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 125,
+      "finalFish": 41.6066,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 1,
+      "mode": "grid_close",
+      "trades": 125,
+      "finalFish": 41.6066,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 2,
+      "mode": "grid_close",
+      "trades": 125,
+      "finalFish": 41.6066,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 3,
+      "mode": "grid_close",
+      "trades": 124,
+      "finalFish": 41.5414,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 4,
+      "mode": "grid_close",
+      "trades": 124,
+      "finalFish": 41.5414,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 5,
+      "mode": "grid_close",
+      "trades": 124,
+      "finalFish": 41.5414,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 6,
+      "mode": "grid_close",
+      "trades": 124,
+      "finalFish": 41.5414,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 7,
+      "mode": "grid_close",
+      "trades": 125,
+      "finalFish": 41.6066,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 8,
+      "mode": "grid_close",
+      "trades": 125,
+      "finalFish": 41.6066,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 9,
+      "mode": "grid_close",
+      "trades": 125,
+      "finalFish": 41.6066,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 10,
+      "mode": "grid_close",
+      "trades": 125,
+      "finalFish": 41.6066,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 11,
+      "mode": "grid_close",
+      "trades": 125,
+      "finalFish": 41.6066,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 12,
+      "mode": "grid_close",
+      "trades": 125,
+      "finalFish": 41.6066,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 13,
+      "mode": "grid_close",
+      "trades": 125,
+      "finalFish": 41.6066,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 14,
+      "mode": "grid_close",
+      "trades": 125,
+      "finalFish": 41.6066,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 124,
+      "finalFish": 41.5414,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 18,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 138,
+      "finalFish": 52.955,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 1,
+      "mode": "grid_close",
+      "trades": 138,
+      "finalFish": 52.955,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 2,
+      "mode": "grid_close",
+      "trades": 138,
+      "finalFish": 52.955,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 3,
+      "mode": "grid_close",
+      "trades": 138,
+      "finalFish": 52.955,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 4,
+      "mode": "grid_close",
+      "trades": 143,
+      "finalFish": 52.354,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 5,
+      "mode": "grid_close",
+      "trades": 143,
+      "finalFish": 52.354,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 6,
+      "mode": "grid_close",
+      "trades": 142,
+      "finalFish": 52.1951,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 7,
+      "mode": "grid_close",
+      "trades": 143,
+      "finalFish": 52.354,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 8,
+      "mode": "grid_close",
+      "trades": 138,
+      "finalFish": 52.955,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 9,
+      "mode": "grid_close",
+      "trades": 138,
+      "finalFish": 52.955,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 10,
+      "mode": "grid_close",
+      "trades": 138,
+      "finalFish": 52.955,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 11,
+      "mode": "grid_close",
+      "trades": 138,
+      "finalFish": 52.955,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 12,
+      "mode": "grid_close",
+      "trades": 142,
+      "finalFish": 51.1617,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 13,
+      "mode": "grid_close",
+      "trades": 142,
+      "finalFish": 52.2616,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 14,
+      "mode": "grid_close",
+      "trades": 142,
+      "finalFish": 52.2616,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    },
+    {
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 144,
+      "finalFish": 51.3594,
+      "maxRequestsPerMinute": 2,
+      "maxRequestsPer24h": 19,
+      "status": "passed"
+    }
+  ]
+}

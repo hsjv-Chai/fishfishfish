@@ -1,0 +1,32 @@
+{
+  "kind": "three_day_spotcheck_not_full_year_verification",
+  "days": [
+    {
+      "day": "2025-10-01",
+      "status": "unverified",
+      "source": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1s/BTCUSDT-1s-2025-10-01.zip",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+    },
+    {
+      "day": "2026-03-15",
+      "status": "verified",
+      "source": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1s/BTCUSDT-1s-2026-03-15.zip",
+      "sha256": "0d513c2807619f0bad31fb7c43fe647af7c7287396451567ba5e35c8aed408e5",
+      "rows": 86400,
+      "timeline_contiguous": true,
+      "exact_float32_fields": [
+        "close",
+        "high",
+        "low"
+      ]
+    },
+    {
+      "day": "2026-09-30",
+      "status": "unverified",
+      "source": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1s/BTCUSDT-1s-2026-09-30.zip",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+    }
+  ],
+  "verified_seconds": 86400,
+  "full_year_original_timestamps_verified": false
+}

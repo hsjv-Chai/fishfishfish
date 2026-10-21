@@ -1,0 +1,42 @@
+[
+  {
+    "position_id": "shadow-v2-76ce796811484c8993eb9c6d9dec4144",
+    "symbol": "ETHUSDT",
+    "mechanism": "pullback",
+    "signal_time": 1757282400000,
+    "opened": 1757286060000,
+    "closed": 1757360070000,
+    "entry": 4314.08,
+    "exit": 4294.654018836277,
+    "stake": 10001,
+    "payout": 9953,
+    "profit": -48,
+    "reason": "stop",
+    "holding_hours": 20.558333333333334,
+    "mfe": 0.016221303267440756,
+    "mae": 0.008131513555613257,
+    "fee_units": 1.9911932482652899,
+    "buy_slippage": 0,
+    "sell_slippage": 0
+  },
+  {
+    "position_id": "shadow-v2-a245f3c8560e4acd99988a69e8b48a7b",
+    "symbol": "ETHUSDT",
+    "mechanism": "pullback",
+    "signal_time": 1757271600000,
+    "opened": 1757275260000,
+    "closed": 1757360070000,
+    "entry": 4290.15,
+    "exit": 4294.654018836277,
+    "stake": 10000,
+    "payout": 10008,
+    "profit": 8,
+    "reason": "stop",
+    "holding_hours": 23.558333333333334,
+    "mfe": 0.021889677517103356,
+    "mae": 0.0025989767257553753,
+    "fee_units": 2.0020997022650855,
+    "buy_slippage": 0,
+    "sell_slippage": 0
+  }
+]

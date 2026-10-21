@@ -1,0 +1,22 @@
+[
+  {
+    "position_id": "shadow-v2-9091b4f1870240b992916d22ca7917fa",
+    "symbol": "BTCUSDT",
+    "mechanism": "reversion",
+    "signal_time": 1774116000000,
+    "opened": 1774119660000,
+    "closed": 1774136850000,
+    "entry": 70441.66323,
+    "exit": 69702.37797440117,
+    "stake": 10001,
+    "payout": 9894,
+    "profit": -107,
+    "reason": "stop",
+    "holding_hours": 4.775,
+    "mfe": 0.0010669363350295225,
+    "mae": 0.009999999999999898,
+    "fee_units": 1.9792079010000005,
+    "buy_slippage": 0.0005,
+    "sell_slippage": 0.0005
+  }
+]

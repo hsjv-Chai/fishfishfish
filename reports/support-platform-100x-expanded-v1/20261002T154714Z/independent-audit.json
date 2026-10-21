@@ -1,0 +1,1609 @@
+{
+  "status": "passed",
+  "verifiedTrialCount": 160,
+  "verifiedTrades": 91677,
+  "septemberMatchesPreviousEightTrialsExactly": true,
+  "auditScriptSHA256": "34687b186abe01860cef6c50b08fb6f50a2d500d7687a9b74ac4d9a14926d2f3",
+  "checks": [
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 1786,
+      "finalFish": 31.5788,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 1,
+      "mode": "grid_close",
+      "trades": 1788,
+      "finalFish": 30.6854,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 2,
+      "mode": "grid_close",
+      "trades": 1784,
+      "finalFish": 32.4871,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 3,
+      "mode": "grid_close",
+      "trades": 1784,
+      "finalFish": 30.2218,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 4,
+      "mode": "grid_close",
+      "trades": 1787,
+      "finalFish": 28.2888,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 5,
+      "mode": "grid_close",
+      "trades": 1788,
+      "finalFish": 27.1778,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 6,
+      "mode": "grid_close",
+      "trades": 1790,
+      "finalFish": 27.3735,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 7,
+      "mode": "grid_close",
+      "trades": 1794,
+      "finalFish": 25.5812,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 8,
+      "mode": "grid_close",
+      "trades": 1788,
+      "finalFish": 27.2192,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 9,
+      "mode": "grid_close",
+      "trades": 1788,
+      "finalFish": 28.3256,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 10,
+      "mode": "grid_close",
+      "trades": 1790,
+      "finalFish": 26.3339,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 11,
+      "mode": "grid_close",
+      "trades": 1788,
+      "finalFish": 29.5113,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 12,
+      "mode": "grid_close",
+      "trades": 1791,
+      "finalFish": 27.5472,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 13,
+      "mode": "grid_close",
+      "trades": 1791,
+      "finalFish": 27.5922,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 14,
+      "mode": "grid_close",
+      "trades": 1789,
+      "finalFish": 28.4629,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 1803,
+      "finalFish": 17.7379,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 873,
+      "finalFish": 0.5772,
+      "belowMinimumStakeAtUTC": "2026-03-26T17:57:15+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 1,
+      "mode": "grid_close",
+      "trades": 879,
+      "finalFish": 0.1208,
+      "belowMinimumStakeAtUTC": "2026-03-27T10:54:16+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 2,
+      "mode": "grid_close",
+      "trades": 879,
+      "finalFish": 0.1193,
+      "belowMinimumStakeAtUTC": "2026-03-27T10:54:17+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 3,
+      "mode": "grid_close",
+      "trades": 852,
+      "finalFish": 0.7056,
+      "belowMinimumStakeAtUTC": "2026-03-22T21:05:33+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 4,
+      "mode": "grid_close",
+      "trades": 878,
+      "finalFish": 0.029,
+      "belowMinimumStakeAtUTC": "2026-03-27T10:54:19+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 5,
+      "mode": "grid_close",
+      "trades": 849,
+      "finalFish": 0.345,
+      "belowMinimumStakeAtUTC": "2026-03-22T21:05:35+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 6,
+      "mode": "grid_close",
+      "trades": 772,
+      "finalFish": 0.8178,
+      "belowMinimumStakeAtUTC": "2026-03-07T19:51:21+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 7,
+      "mode": "grid_close",
+      "trades": 849,
+      "finalFish": 0.4118,
+      "belowMinimumStakeAtUTC": "2026-03-22T11:41:07+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 8,
+      "mode": "grid_close",
+      "trades": 853,
+      "finalFish": 0.7848,
+      "belowMinimumStakeAtUTC": "2026-03-22T21:05:23+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 9,
+      "mode": "grid_close",
+      "trades": 853,
+      "finalFish": 0.7848,
+      "belowMinimumStakeAtUTC": "2026-03-22T21:05:24+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 10,
+      "mode": "grid_close",
+      "trades": 849,
+      "finalFish": 0.4031,
+      "belowMinimumStakeAtUTC": "2026-03-22T11:41:10+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 11,
+      "mode": "grid_close",
+      "trades": 879,
+      "finalFish": 0.103,
+      "belowMinimumStakeAtUTC": "2026-03-27T10:54:11+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 12,
+      "mode": "grid_close",
+      "trades": 874,
+      "finalFish": 0.6675,
+      "belowMinimumStakeAtUTC": "2026-03-26T17:57:12+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 13,
+      "mode": "grid_close",
+      "trades": 853,
+      "finalFish": 0.7674,
+      "belowMinimumStakeAtUTC": "2026-03-22T21:05:28+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 14,
+      "mode": "grid_close",
+      "trades": 874,
+      "finalFish": 0.6854,
+      "belowMinimumStakeAtUTC": "2026-03-26T17:57:14+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 697,
+      "finalFish": 0.5581,
+      "belowMinimumStakeAtUTC": "2026-02-20T11:44:33+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 429,
+      "finalFish": 0.5574,
+      "belowMinimumStakeAtUTC": "2026-01-02T14:33:15+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 1,
+      "mode": "grid_close",
+      "trades": 446,
+      "finalFish": 0.788,
+      "belowMinimumStakeAtUTC": "2026-01-07T09:19:31+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 2,
+      "mode": "grid_close",
+      "trades": 411,
+      "finalFish": 0.4572,
+      "belowMinimumStakeAtUTC": "2025-12-29T12:15:17+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 3,
+      "mode": "grid_close",
+      "trades": 429,
+      "finalFish": 0.5574,
+      "belowMinimumStakeAtUTC": "2026-01-02T14:33:18+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 4,
+      "mode": "grid_close",
+      "trades": 443,
+      "finalFish": 0.5494,
+      "belowMinimumStakeAtUTC": "2026-01-06T18:00:34+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 5,
+      "mode": "grid_close",
+      "trades": 442,
+      "finalFish": 0.4922,
+      "belowMinimumStakeAtUTC": "2026-01-07T09:19:35+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 6,
+      "mode": "grid_close",
+      "trades": 442,
+      "finalFish": 0.3198,
+      "belowMinimumStakeAtUTC": "2026-01-06T18:00:36+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 7,
+      "mode": "grid_close",
+      "trades": 444,
+      "finalFish": 0.4404,
+      "belowMinimumStakeAtUTC": "2026-01-07T09:19:52+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 8,
+      "mode": "grid_close",
+      "trades": 429,
+      "finalFish": 0.505,
+      "belowMinimumStakeAtUTC": "2026-01-02T14:33:08+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 9,
+      "mode": "grid_close",
+      "trades": 445,
+      "finalFish": 0.5008,
+      "belowMinimumStakeAtUTC": "2026-01-07T09:19:54+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 10,
+      "mode": "grid_close",
+      "trades": 445,
+      "finalFish": 0.5008,
+      "belowMinimumStakeAtUTC": "2026-01-07T09:19:55+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 11,
+      "mode": "grid_close",
+      "trades": 450,
+      "finalFish": 0.8427,
+      "belowMinimumStakeAtUTC": "2026-01-08T06:50:56+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 12,
+      "mode": "grid_close",
+      "trades": 444,
+      "finalFish": 0.3931,
+      "belowMinimumStakeAtUTC": "2026-01-07T09:19:12+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 13,
+      "mode": "grid_close",
+      "trades": 446,
+      "finalFish": 0.7014,
+      "belowMinimumStakeAtUTC": "2026-01-07T09:19:13+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 14,
+      "mode": "grid_close",
+      "trades": 411,
+      "finalFish": 0.4799,
+      "belowMinimumStakeAtUTC": "2025-12-29T12:15:14+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 363,
+      "finalFish": 0.5495,
+      "belowMinimumStakeAtUTC": "2025-12-15T16:36:47+00:00",
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 1789,
+      "finalFish": 32.7248,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 1,
+      "mode": "grid_close",
+      "trades": 1790,
+      "finalFish": 36.1434,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 2,
+      "mode": "grid_close",
+      "trades": 1788,
+      "finalFish": 35.9561,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 3,
+      "mode": "grid_close",
+      "trades": 1788,
+      "finalFish": 34.8154,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 4,
+      "mode": "grid_close",
+      "trades": 1791,
+      "finalFish": 32.8638,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 5,
+      "mode": "grid_close",
+      "trades": 1792,
+      "finalFish": 31.8323,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 6,
+      "mode": "grid_close",
+      "trades": 1793,
+      "finalFish": 30.5672,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 7,
+      "mode": "grid_close",
+      "trades": 1796,
+      "finalFish": 29.9923,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 8,
+      "mode": "grid_close",
+      "trades": 1792,
+      "finalFish": 30.9388,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 9,
+      "mode": "grid_close",
+      "trades": 1794,
+      "finalFish": 31.1331,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 10,
+      "mode": "grid_close",
+      "trades": 1794,
+      "finalFish": 31.0926,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 11,
+      "mode": "grid_close",
+      "trades": 1791,
+      "finalFish": 34.0387,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 12,
+      "mode": "grid_close",
+      "trades": 1795,
+      "finalFish": 31.0225,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 13,
+      "mode": "grid_close",
+      "trades": 1794,
+      "finalFish": 33.2605,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 14,
+      "mode": "grid_close",
+      "trades": 1793,
+      "finalFish": 34.2621,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "annual",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 1807,
+      "finalFish": 22.0273,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-10",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 162,
+      "finalFish": 45.8792,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-10",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 164,
+      "finalFish": 46.085,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-10",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 157,
+      "finalFish": 42.6898,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-10",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 159,
+      "finalFish": 40.6846,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-10",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 147,
+      "finalFish": 35.19,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-10",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 149,
+      "finalFish": 32.1836,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-10",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 163,
+      "finalFish": 47.4598,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-10",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 164,
+      "finalFish": 47.5544,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-11",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 151,
+      "finalFish": 42.581,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-11",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 152,
+      "finalFish": 39.4321,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-11",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 148,
+      "finalFish": 36.3666,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-11",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 149,
+      "finalFish": 35.3975,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-11",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 141,
+      "finalFish": 30.9685,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-11",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 142,
+      "finalFish": 30.9814,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-11",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 152,
+      "finalFish": 41.8643,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-11",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 153,
+      "finalFish": 39.7739,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-12",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 152,
+      "finalFish": 52.4229,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-12",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 153,
+      "finalFish": 50.2767,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-12",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 143,
+      "finalFish": 41.7694,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-12",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 144,
+      "finalFish": 40.8073,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-12",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 137,
+      "finalFish": 35.2027,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-12",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 142,
+      "finalFish": 33.3572,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-12",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 151,
+      "finalFish": 49.8996,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2025-12",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 151,
+      "finalFish": 48.8511,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-01",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 136,
+      "finalFish": 49.1604,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-01",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 138,
+      "finalFish": 46.0046,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-01",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 129,
+      "finalFish": 44.4541,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-01",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 134,
+      "finalFish": 39.3723,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-01",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 122,
+      "finalFish": 36.6926,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-01",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 125,
+      "finalFish": 33.729,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-01",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 135,
+      "finalFish": 48.8106,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-01",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 138,
+      "finalFish": 45.642,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-02",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 154,
+      "finalFish": 46.3817,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-02",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 154,
+      "finalFish": 46.3817,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-02",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 151,
+      "finalFish": 40.1506,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-02",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 151,
+      "finalFish": 40.1506,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-02",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 149,
+      "finalFish": 33.4546,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-02",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 150,
+      "finalFish": 32.3454,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-02",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 155,
+      "finalFish": 48.6655,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-02",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 155,
+      "finalFish": 48.6655,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-03",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 173,
+      "finalFish": 47.5728,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-03",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 175,
+      "finalFish": 46.6436,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-03",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 172,
+      "finalFish": 41.0726,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-03",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 172,
+      "finalFish": 41.0726,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-03",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 165,
+      "finalFish": 32.8788,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-03",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 166,
+      "finalFish": 32.9512,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-03",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 177,
+      "finalFish": 48.9616,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-03",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 179,
+      "finalFish": 47.7853,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-04",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 161,
+      "finalFish": 53.211,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-04",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 162,
+      "finalFish": 52.1713,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-04",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 152,
+      "finalFish": 47.0585,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-04",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 152,
+      "finalFish": 47.0585,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-04",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 146,
+      "finalFish": 43.4842,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-04",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 147,
+      "finalFish": 43.5356,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-04",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 159,
+      "finalFish": 54.5367,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-04",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 160,
+      "finalFish": 53.5084,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-05",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 145,
+      "finalFish": 49.268,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-05",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 145,
+      "finalFish": 48.1705,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-05",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 135,
+      "finalFish": 45.3753,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-05",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 135,
+      "finalFish": 44.2703,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-05",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 117,
+      "finalFish": 38.384,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-05",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 118,
+      "finalFish": 36.2652,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-05",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 147,
+      "finalFish": 50.8772,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-05",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 148,
+      "finalFish": 50.9674,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-06",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 163,
+      "finalFish": 45.8443,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-06",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 163,
+      "finalFish": 44.6993,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-06",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 157,
+      "finalFish": 35.7913,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-06",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 160,
+      "finalFish": 36.0402,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-06",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 145,
+      "finalFish": 26.264,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-06",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 148,
+      "finalFish": 26.3822,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-06",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 161,
+      "finalFish": 41.7811,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-06",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 161,
+      "finalFish": 41.7811,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-07",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 128,
+      "finalFish": 48.4766,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-07",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 129,
+      "finalFish": 47.4699,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-07",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 125,
+      "finalFish": 45.8164,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-07",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 126,
+      "finalFish": 44.7154,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-07",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 112,
+      "finalFish": 39.7101,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-07",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 112,
+      "finalFish": 39.7101,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-07",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 129,
+      "finalFish": 48.7214,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-07",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 131,
+      "finalFish": 47.8392,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-08",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 122,
+      "finalFish": 47.5341,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-08",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 123,
+      "finalFish": 47.6496,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-08",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 114,
+      "finalFish": 44.6185,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-08",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 115,
+      "finalFish": 44.7099,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-08",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 108,
+      "finalFish": 41.4966,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-08",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 109,
+      "finalFish": 41.5691,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-08",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 122,
+      "finalFish": 47.7353,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-08",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 123,
+      "finalFish": 47.8429,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-09",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 139,
+      "finalFish": 52.7888,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-09",
+      "scenario": "delay2_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 145,
+      "finalFish": 52.2956,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-09",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 132,
+      "finalFish": 47.553,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-09",
+      "scenario": "delay2_2bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 136,
+      "finalFish": 47.9058,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-09",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 125,
+      "finalFish": 41.6066,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-09",
+      "scenario": "delay5_5bp_each_side",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 124,
+      "finalFish": 41.5414,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-09",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "grid_close",
+      "trades": 138,
+      "finalFish": 52.955,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    },
+    {
+      "period": "2026-09",
+      "scenario": "delay5_no_extra_slippage",
+      "phase": 0,
+      "mode": "each_second_low",
+      "trades": 144,
+      "finalFish": 51.3594,
+      "belowMinimumStakeAtUTC": null,
+      "status": "passed"
+    }
+  ]
+}

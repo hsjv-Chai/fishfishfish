@@ -78,3 +78,11 @@ python3 -m fishbot watchdog
 - 本机看门狗只能发现交易进程失联。整台服务器断电/网络中断须从另一台机器监控，参见部署文档。
 
 部署步骤见 [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)，接口和风控细节见 [docs/DESIGN.md](docs/DESIGN.md)。
+
+## 图形化监控
+
+只读测试观测台已提供净值曲线、14 天进度、回测对照、验收门槛与告警。通过 SSH 隧道访问，不开放公网端口。运行 `sh scripts/open-monitor.sh`，然后打开 http://127.0.0.1:18787 。详细说明见 [监控使用文档](docs/MONITORING.md)。
+
+## V2 十仓研究
+
+独立 V2 包已实现 BTC/ETH 多仓、突破/回调/均值回归、三档组合预算和滚动研究。最终 15 个候选均未通过门槛，因此 V2 未启动，V1 继续影子运行。研究设计、复现命令及结果见 [V2 研究说明](docs/V2_RESEARCH.md)；面板的“V2 多仓研究”可查看完整对照。

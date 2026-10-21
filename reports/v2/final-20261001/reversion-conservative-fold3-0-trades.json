@@ -1,0 +1,42 @@
+[
+  {
+    "position_id": "shadow-v2-38e395a2710d40a6975806c5afbdc439",
+    "symbol": "BTCUSDT",
+    "mechanism": "reversion",
+    "signal_time": 1783922400000,
+    "opened": 1783926060000,
+    "closed": 1783952190000,
+    "entry": 62781.27,
+    "exit": 62153.457299999995,
+    "stake": 10003,
+    "payout": 9900,
+    "profit": -103,
+    "reason": "stop",
+    "holding_hours": 7.258333333333334,
+    "mfe": 0.00830836967777171,
+    "mae": 0.010000000000000009,
+    "fee_units": 1.980594,
+    "buy_slippage": 0,
+    "sell_slippage": 0
+  },
+  {
+    "position_id": "shadow-v2-bdab51f121da4da6b69fea210f00521c",
+    "symbol": "BTCUSDT",
+    "mechanism": "reversion",
+    "signal_time": 1784257200000,
+    "opened": 1784260860000,
+    "closed": 1784267190000,
+    "entry": 63540.29,
+    "exit": 62886.2218930218,
+    "stake": 10001,
+    "payout": 9896,
+    "profit": -105,
+    "reason": "stop",
+    "holding_hours": 1.7583333333333333,
+    "mfe": 0.0005620056187971567,
+    "mae": 0.010293753884003332,
+    "fee_units": 1.9796104334812166,
+    "buy_slippage": 0,
+    "sell_slippage": 0
+  }
+]

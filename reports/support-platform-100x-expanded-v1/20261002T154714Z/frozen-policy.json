@@ -1,0 +1,67 @@
+{
+  "version": "support-platform-100x-expanded-v1",
+  "symbol": "BTCUSDT",
+  "dataStart": "2025-10-01T00:00:00Z",
+  "evaluationStart": "2025-10-02T00:00:00Z",
+  "evaluationEndExclusive": "2026-10-01T00:00:00Z",
+  "startingFish": 50,
+  "stakeFish": 1,
+  "leverage": 100,
+  "fee": 0.0002,
+  "targetNetMarginReturn": 0.1,
+  "primaryTrendFilter": false,
+  "trend": {
+    "intervalSeconds": 14400,
+    "fastEMA": 50,
+    "slowEMA": 200
+  },
+  "support": {
+    "intervalSeconds": 900,
+    "pivotLeft": 2,
+    "pivotRight": 2,
+    "maximumAgeBars": 96,
+    "atrPeriod": 14,
+    "zoneHalfATR": 0.25,
+    "maximumWaitingSeconds": 1800
+  },
+  "platform": {
+    "seconds": 5,
+    "maximumRangeFraction": 0.0001
+  },
+  "precedingDecline": {
+    "seconds": 30,
+    "minimumFraction": 0
+  },
+  "manualStop": null,
+  "maximumHoldingSeconds": null,
+  "cooldownSeconds": 0,
+  "dailyLossHalt": null,
+  "maximumDrawdownHalt": null,
+  "maximumPositions": 1,
+  "oneTradePerSupport": true,
+  "liquidationIntervalSeconds": 15,
+  "primaryLiquidationPhaseSeconds": 0,
+  "scenarios": [
+    {
+      "name": "delay2_no_extra_slippage",
+      "delaySeconds": 2,
+      "slippagePerSide": 0
+    },
+    {
+      "name": "delay2_2bp_each_side",
+      "delaySeconds": 2,
+      "slippagePerSide": 0.0002
+    },
+    {
+      "name": "delay5_5bp_each_side",
+      "delaySeconds": 5,
+      "slippagePerSide": 0.0005
+    },
+    {
+      "name": "delay5_no_extra_slippage",
+      "delaySeconds": 5,
+      "slippagePerSide": 0
+    }
+  ],
+  "evidenceStatus": "expanded_fixed_policy_retrospective_not_independent_oos"
+}

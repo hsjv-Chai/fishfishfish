@@ -50,3 +50,64 @@ services:
     tmpfs: [/tmp]
     cap_drop: [ALL]
     security_opt: [no-new-privileges:true]
+  monitor:
+    image: fishfishfish-trader
+    init: true
+    restart: unless-stopped
+    entrypoint: ["python", "/app/monitor/server.py"]
+    command: ["--bind", "0.0.0.0", "--port", "8787"]
+    ports: ["127.0.0.1:8787:8787"]
+    volumes:
+      - ./monitor:/app/monitor:ro
+      - ./fishbot_v2:/app/fishbot_v2:ro
+      - ./tests_v2:/app/tests_v2:ro
+      - ./data:/app/data:ro
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8787/api/snapshot',timeout=5)"]
+      interval: 30s
+      timeout: 6s
+      retries: 3
+
+  v2:
+    &v2_service
+    profiles: [v2]
+    image: fishfishfish-trader
+    init: true
+    restart: unless-stopped
+    entrypoint: ["python", "-m", "fishbot_v2"]
+    command: ["run", "--config", "/app/config.toml", "--database", "/app/data/v2/shadow.sqlite3"]
+    volumes:
+      - ./config.toml:/app/config.toml:ro
+      - ./fishbot_v2:/app/fishbot_v2:ro
+      - ./tests_v2:/app/tests_v2:ro
+      - ./data:/app/data
+      - ./secrets:/app/secrets:ro
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    stop_grace_period: 120s
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sqlite3,json,time; d=sqlite3.connect('file:/app/data/v2/shadow.sqlite3?mode=ro',uri=True); r=d.execute(\"select value from kv where key='heartbeat'\").fetchone(); assert r and time.time()*1000-json.loads(r[0])['at']<60000"]
+      interval: 30s
+      timeout: 5s
+      start_period: 60s
+      retries: 2
+  v2-zero:
+    <<: *v2_service
+    command: ["run", "--config", "/app/config.toml", "--database", "/app/data/v2/shadow.sqlite3.zero", "--scenario", "zero"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sqlite3,json,time; d=sqlite3.connect('file:/app/data/v2/shadow.sqlite3.zero?mode=ro',uri=True); r=d.execute(\"select value from kv where key='heartbeat'\").fetchone(); assert r and time.time()*1000-json.loads(r[0])['at']<60000"]
+      interval: 30s
+      timeout: 5s
+      start_period: 60s
+      retries: 2
+  v2-watchdog:
+    <<: *v2_service
+    command: ["watchdog", "--config", "/app/config.toml", "--database", "/app/data/v2/shadow.sqlite3"]
+    healthcheck:
+      disable: true

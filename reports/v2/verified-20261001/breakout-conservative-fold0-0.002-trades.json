@@ -1,0 +1,22 @@
+[
+  {
+    "position_id": "shadow-v2-ec57d88cdf864e35b22d043ae0eddad6",
+    "symbol": "BTCUSDT",
+    "mechanism": "breakout",
+    "signal_time": 1757912400000,
+    "opened": 1757916060000,
+    "closed": 1757923350000,
+    "entry": 116769.40266,
+    "exit": 115370.5052161332,
+    "stake": 10000,
+    "payout": 9878,
+    "profit": -122,
+    "reason": "stop",
+    "holding_hours": 2.025,
+    "mfe": 0,
+    "mae": 0.010000000000000009,
+    "fee_units": 1.9760399999999998,
+    "buy_slippage": 0.002,
+    "sell_slippage": 0.002
+  }
+]

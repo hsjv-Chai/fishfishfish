@@ -1,0 +1,40 @@
+{
+  "version": "support-seconds-v1",
+  "symbol": "BTCUSDT",
+  "dataStart": "2025-10-01T00:00:00Z",
+  "dataEndExclusive": "2026-10-01T00:00:00Z",
+  "warmupSeconds": 86400,
+  "startingFish": 50,
+  "leverage": 1,
+  "fee": 0.0002,
+  "minimumFish": 1,
+  "allocationCap": 0.20,
+  "plannedRisk": 0.0025,
+  "sizingExecutionBudgetPerSide": 0.0005,
+  "maximumStopDistance": 0.04,
+  "trend": { "intervalSeconds": 14400, "fastEMA": 50, "slowEMA": 200 },
+  "support": {
+    "intervalSeconds": 900,
+    "pivotLeft": 2,
+    "pivotRight": 2,
+    "maximumAgeBars": 96,
+    "atrPeriod": 14,
+    "zoneHalfATR": 0.25,
+    "invalidationATR": 0.50,
+    "maximumConfirmationSeconds": 1800,
+    "maximumEntryAboveSupportATR": 1.0
+  },
+  "confirmation": { "quietSeconds": 15, "breakoutLookbackSeconds": 10 },
+  "exit": { "hourlyATRPeriod": 14, "trailingATR": 3, "maximumHoldingSeconds": 172800, "cooldownSeconds": 21600 },
+  "dailyLoss": 0.01,
+  "maximumDrawdown": 0.05,
+  "methods": ["touch", "minute_confirmation", "second_confirmation"],
+  "scenarios": [
+    { "name": "delay2_no_extra_slippage", "delaySeconds": 2, "slippagePerSide": 0 },
+    { "name": "delay2_2bp_each_side", "delaySeconds": 2, "slippagePerSide": 0.0002 },
+    { "name": "delay5_5bp_each_side", "delaySeconds": 5, "slippagePerSide": 0.0005 },
+    { "name": "delay5_no_extra_slippage", "delaySeconds": 5, "slippagePerSide": 0 },
+    { "name": "delay15_no_extra_slippage", "delaySeconds": 15, "slippagePerSide": 0 }
+  ],
+  "evidenceStatus": "exploratory_previously_viewed_data_no_parameter_optimization"
+}

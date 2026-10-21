@@ -1,0 +1,1048 @@
+{
+  "version": "support-seconds-v1",
+  "completedAt": "2026-10-02T15:05:48.691Z",
+  "sourceHashes": {
+    "policy.json": "ee7204af2442121c0e98b3edf086e5ee95194676233b0671be48e4099f5d21c3",
+    "strategy.mjs": "a256b1ff06d5482707264142028120d4e65a45f8ab4427c35522dabd762f734a",
+    "strategy.test.mjs": "37743612200904621069f0b48e470913c83fbd994e6718b257018b08da78e28c",
+    "run.mjs": "e03f95a002f862b8eef2d478b058d7ae4bc7f08d661670711f2b219a6f6282cd",
+    "audit.mjs": "ef0dbc5b6676564409a39bece82ec80ce82729de8cd2e9a9ee65dbbce804e494",
+    "spotcheck.py": "c0a80e21fe783d4580ef4e302db0b86cb6256707ea93af52a0984c63b3d2b777"
+  },
+  "evidenceStatus": "exploratory_previously_viewed_data_no_parameter_optimization",
+  "liveQualified": false,
+  "parameterOptimizationPerformed": false,
+  "policy": {
+    "version": "support-seconds-v1",
+    "symbol": "BTCUSDT",
+    "dataStart": "2025-10-01T00:00:00Z",
+    "dataEndExclusive": "2026-10-01T00:00:00Z",
+    "warmupSeconds": 86400,
+    "startingFish": 50,
+    "leverage": 1,
+    "fee": 0.0002,
+    "minimumFish": 1,
+    "allocationCap": 0.2,
+    "plannedRisk": 0.0025,
+    "sizingExecutionBudgetPerSide": 0.0005,
+    "maximumStopDistance": 0.04,
+    "trend": {
+      "intervalSeconds": 14400,
+      "fastEMA": 50,
+      "slowEMA": 200
+    },
+    "support": {
+      "intervalSeconds": 900,
+      "pivotLeft": 2,
+      "pivotRight": 2,
+      "maximumAgeBars": 96,
+      "atrPeriod": 14,
+      "zoneHalfATR": 0.25,
+      "invalidationATR": 0.5,
+      "maximumConfirmationSeconds": 1800,
+      "maximumEntryAboveSupportATR": 1
+    },
+    "confirmation": {
+      "quietSeconds": 15,
+      "breakoutLookbackSeconds": 10
+    },
+    "exit": {
+      "hourlyATRPeriod": 14,
+      "trailingATR": 3,
+      "maximumHoldingSeconds": 172800,
+      "cooldownSeconds": 21600
+    },
+    "dailyLoss": 0.01,
+    "maximumDrawdown": 0.05,
+    "methods": [
+      "touch",
+      "minute_confirmation",
+      "second_confirmation"
+    ],
+    "scenarios": [
+      {
+        "name": "delay2_no_extra_slippage",
+        "delaySeconds": 2,
+        "slippagePerSide": 0
+      },
+      {
+        "name": "delay2_2bp_each_side",
+        "delaySeconds": 2,
+        "slippagePerSide": 0.0002
+      },
+      {
+        "name": "delay5_5bp_each_side",
+        "delaySeconds": 5,
+        "slippagePerSide": 0.0005
+      },
+      {
+        "name": "delay5_no_extra_slippage",
+        "delaySeconds": 5,
+        "slippagePerSide": 0
+      },
+      {
+        "name": "delay15_no_extra_slippage",
+        "delaySeconds": 15,
+        "slippagePerSide": 0
+      }
+    ],
+    "evidenceStatus": "exploratory_previously_viewed_data_no_parameter_optimization"
+  },
+  "evaluation": {
+    "start": "2025-10-02T00:00:00.000Z",
+    "endExclusive": "2026-10-01T00:00:00Z",
+    "quartersCarryCashAndPositions": true,
+    "independentOutOfSample": false
+  },
+  "audit": {
+    "symbol": "BTCUSDT",
+    "seconds": 31536000,
+    "start": "2025-10-01T00:00:00Z",
+    "endExclusive": "2026-10-01T00:00:00Z",
+    "indexTimelineOrigin": "pinned from existing downloader job list; original timestamps not retained",
+    "firstClose": 114060.34375,
+    "lastClose": 83623.6015625,
+    "hourly": {
+      "compared": 8760,
+      "fields": [
+        "high",
+        "low",
+        "close"
+      ],
+      "toleranceUSD": 0.02,
+      "maximumDifferenceUSD": 0.0037500000034924597
+    },
+    "fourHourly": {
+      "compared": 2190,
+      "fields": [
+        "high",
+        "low",
+        "close"
+      ],
+      "toleranceUSD": 0.02,
+      "maximumDifferenceUSD": 0.0037500000034924597
+    },
+    "sha256": {
+      "/Users/hsjv/Documents/lianghua/data/btc_1s/close.f32": "c8566b7a192072a9c00ca380ce2027b31193089b1a47fa54e9b0676508f839c7",
+      "/Users/hsjv/Documents/lianghua/data/btc_1s/high.f32": "bea8cac7856bb243ab56839061b2cb2f41a78b50a0a1afa2a37289389ee83767",
+      "/Users/hsjv/Documents/lianghua/data/btc_1s/low.f32": "e8b3f357108be6aa395e160ee6df0a14d99276b89b128263ee9d8b5c2bbb49d7",
+      "/Users/hsjv/Documents/lianghua/backtest/data/btc_1h_klines.json": "37496dc57471cfe118d994f265e32dab7daafb906d96b254c864fd978c21161f",
+      "/Users/hsjv/Documents/lianghua/backtest/data/btc_4h_klines.json": "ac30bec9af7bf91436b716644c82f92a67f9804d40bf2451c00e33e5e9459e44",
+      "/Users/hsjv/Documents/lianghua/data/btc_1s/meta.json": "72c76e193b563af6e06ecd551a0aa5e57447b7da5f3d45d05800d3784adb4dce",
+      "/Users/hsjv/Documents/lianghua/data/btc_1s/fetch_1s.mjs": "31d65ec5fab84420177f22a2ce8ea85b021d8cc96db82824fb2651fb438127f6",
+      "/Users/hsjv/Documents/ChatGPT/fishfishfish/data/support-seconds-v1/spotcheck-20261002.json": "35c529aec0d2ab44bcad22fdfce11079e1e3c750224d8018aaaa1376447c6fc2"
+    },
+    "originalArchiveChecksumsIndependentlyVerified": false,
+    "limitations": [
+      "Original ZIP checksums and per-second timestamps were not preserved.",
+      "Old importer has a gap-counter bug; aggregation consistency is corroboration, not proof of every timestamp.",
+      "Float32 rounding; 1s OHLC without intrasecond ordering; last traded price is not a measured site fill."
+    ],
+    "originalArchiveSpotCheck": {
+      "kind": "three_day_spotcheck_not_full_year_verification",
+      "days": [
+        {
+          "day": "2025-10-01",
+          "status": "unverified",
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1s/BTCUSDT-1s-2025-10-01.zip",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+        },
+        {
+          "day": "2026-03-15",
+          "status": "verified",
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1s/BTCUSDT-1s-2026-03-15.zip",
+          "sha256": "0d513c2807619f0bad31fb7c43fe647af7c7287396451567ba5e35c8aed408e5",
+          "rows": 86400,
+          "timeline_contiguous": true,
+          "exact_float32_fields": [
+            "close",
+            "high",
+            "low"
+          ]
+        },
+        {
+          "day": "2026-09-30",
+          "status": "unverified",
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1s/BTCUSDT-1s-2026-09-30.zip",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+        }
+      ],
+      "verified_seconds": 86400,
+      "full_year_original_timestamps_verified": false
+    }
+  },
+  "eventDiagnostics": {
+    "pivots": 4724,
+    "invalidatedBeforeTouch": 4,
+    "expiredBeforeTouch": 5,
+    "supportTouchEvents": 1126,
+    "eventsByEndReason": {
+      "all_confirmed": 521,
+      "confirmation_timeout": 201,
+      "support_failed": 403,
+      "trend_off": 1
+    },
+    "methods": {
+      "touch": {
+        "confirmations": 1126,
+        "coverage": 1,
+        "meanTriggerPriceImprovementBpOnConfirmedSubset": 0,
+        "medianWaitSeconds": 0,
+        "warning": "Conditional on confirmation; includes unexecuted events; not profit or proof of alpha."
+      },
+      "minute_confirmation": {
+        "confirmations": 521,
+        "coverage": 0.4626998223801066,
+        "meanTriggerPriceImprovementBpOnConfirmedSubset": -5.071397600103946,
+        "medianWaitSeconds": 370,
+        "warning": "Conditional on confirmation; includes unexecuted events; not profit or proof of alpha."
+      },
+      "second_confirmation": {
+        "confirmations": 988,
+        "coverage": 0.8774422735346359,
+        "meanTriggerPriceImprovementBpOnConfirmedSubset": -0.6845867545060496,
+        "medianWaitSeconds": 40,
+        "warning": "Conditional on confirmation; includes unexecuted events; not profit or proof of alpha."
+      }
+    }
+  },
+  "benchmarks": [
+    {
+      "fraction": 0.2,
+      "netReturn": -0.05905600000000011,
+      "maxDrawdown": 0.11382398015609696,
+      "finalFish": 47.0472,
+      "assumptions": "Fixed initial allocation; 2s entry delay; zero extra slippage; no strategy stops/account halts."
+    },
+    {
+      "fraction": 1,
+      "netReturn": -0.29527800000000004,
+      "maxDrawdown": 0.541925789969554,
+      "finalFish": 35.2361,
+      "assumptions": "Fixed initial allocation; 2s entry delay; zero extra slippage; no strategy stops/account halts."
+    }
+  ],
+  "trials": [
+    {
+      "method": "touch",
+      "scenario": "delay2_no_extra_slippage",
+      "metrics": {
+        "finalFish": 49.8028,
+        "netReturn": -0.0039439999999999475,
+        "maxDrawdown": 0.025544938103951864,
+        "naturalTrades": 233,
+        "boundaryClosures": 1,
+        "winRate": 0.09871244635193133,
+        "profitFactor": 0.9516371430683186,
+        "averageProfitFish": -0.0008424892703862649,
+        "averageHoldingHours": 4.058851931330474,
+        "exposure": 0.10831346026658527,
+        "averageAllocation": 0.02160039541729223,
+        "feesFish": 0.47527308803811924,
+        "dailySharpe": -0.14008906194817586,
+        "eligibleSignals": 1126,
+        "filters": {
+          "position_or_order_busy": 384,
+          "cooldown": 508
+        },
+        "fillRiskExceedances": 0,
+        "halted": false,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": -0.0005640000000000089,
+            "endingFish": 49.9718
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.008935039362200303,
+            "endingFish": 49.5253
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.007553714969924408,
+            "endingFish": 49.1512
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": 0.013257051709825829,
+            "endingFish": 49.8028
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 228,
+          "support_failed_during_entry": 2,
+          "time_limit": 2,
+          "trend_off": 1,
+          "evaluation_end": 1
+        }
+      }
+    },
+    {
+      "method": "minute_confirmation",
+      "scenario": "delay2_no_extra_slippage",
+      "metrics": {
+        "finalFish": 48.9686,
+        "netReturn": -0.02062799999999998,
+        "maxDrawdown": 0.044729505838467465,
+        "naturalTrades": 170,
+        "boundaryClosures": 1,
+        "winRate": 0.13529411764705881,
+        "profitFactor": 0.7319657231887821,
+        "averageProfitFish": -0.006071764705882344,
+        "averageHoldingHours": 5.710070261437904,
+        "exposure": 0.11113502238502239,
+        "averageAllocation": 0.022178148937665322,
+        "feesFish": 0.34429571726506686,
+        "dailySharpe": -0.9472840668439769,
+        "eligibleSignals": 521,
+        "filters": {
+          "position_or_order_busy": 169,
+          "cooldown": 181
+        },
+        "fillRiskExceedances": 0,
+        "halted": false,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": 0.0019979999999999443,
+            "endingFish": 50.0999
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.009700618164906416,
+            "endingFish": 49.6139
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.025464637934127454,
+            "endingFish": 48.3505
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": 0.01278373543189848,
+            "endingFish": 48.9686
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 167,
+          "trend_off": 3,
+          "evaluation_end": 1
+        }
+      }
+    },
+    {
+      "method": "second_confirmation",
+      "scenario": "delay2_no_extra_slippage",
+      "metrics": {
+        "finalFish": 49.45,
+        "netReturn": -0.01100000000000001,
+        "maxDrawdown": 0.02913455006205834,
+        "naturalTrades": 222,
+        "boundaryClosures": 1,
+        "winRate": 0.0990990990990991,
+        "profitFactor": 0.8663426194621783,
+        "averageProfitFish": -0.0024896396396396417,
+        "averageHoldingHours": 4.381561561561562,
+        "exposure": 0.11140068554131054,
+        "averageAllocation": 0.02222173005998474,
+        "feesFish": 0.452070388150441,
+        "dailySharpe": -0.4141917498228731,
+        "eligibleSignals": 988,
+        "filters": {
+          "position_or_order_busy": 330,
+          "cooldown": 435
+        },
+        "fillRiskExceedances": 0,
+        "halted": false,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": -0.0010980000000000434,
+            "endingFish": 49.9451
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.009348264394304806,
+            "endingFish": 49.4782
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.01263384682547064,
+            "endingFish": 48.8531
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": 0.012218262505347743,
+            "endingFish": 49.45
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 220,
+          "trend_off": 1,
+          "time_limit": 1,
+          "evaluation_end": 1
+        }
+      }
+    },
+    {
+      "method": "touch",
+      "scenario": "delay2_2bp_each_side",
+      "metrics": {
+        "finalFish": 48.879,
+        "netReturn": -0.022419999999999995,
+        "maxDrawdown": 0.03830560771135061,
+        "naturalTrades": 233,
+        "boundaryClosures": 1,
+        "winRate": 0.08583690987124463,
+        "profitFactor": 0.770016895372316,
+        "averageProfitFish": -0.004790557939914162,
+        "averageHoldingHours": 4.058851931330474,
+        "exposure": 0.10831346026658527,
+        "averageAllocation": 0.021602151854649757,
+        "feesFish": 0.4710661180668917,
+        "dailySharpe": -0.8514031286370407,
+        "eligibleSignals": 1126,
+        "filters": {
+          "position_or_order_busy": 384,
+          "cooldown": 508
+        },
+        "fillRiskExceedances": 0,
+        "halted": false,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": -0.0019199999999999218,
+            "endingFish": 49.904
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.011708480282141887,
+            "endingFish": 49.3197
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.013718656033998577,
+            "endingFish": 48.6431
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": 0.004849608680367767,
+            "endingFish": 48.879
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 228,
+          "support_failed_during_entry": 2,
+          "time_limit": 2,
+          "trend_off": 1,
+          "evaluation_end": 1
+        }
+      }
+    },
+    {
+      "method": "minute_confirmation",
+      "scenario": "delay2_2bp_each_side",
+      "metrics": {
+        "finalFish": 47.855,
+        "netReturn": -0.04290000000000005,
+        "maxDrawdown": 0.05001349892008644,
+        "naturalTrades": 113,
+        "boundaryClosures": 0,
+        "winRate": 0.08849557522123894,
+        "profitFactor": 0.3010752688172044,
+        "averageProfitFish": -0.018982300884955748,
+        "averageHoldingHours": 4.991088987217303,
+        "exposure": 0.06456323768823768,
+        "averageAllocation": 0.012893153701999359,
+        "feesFish": 0.2267659120946745,
+        "dailySharpe": -3.2199768407092706,
+        "eligibleSignals": 521,
+        "filters": {
+          "position_or_order_busy": 97,
+          "cooldown": 115,
+          "permanent_drawdown_halt": 196
+        },
+        "fillRiskExceedances": 0,
+        "halted": true,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": 0.0012820000000000054,
+            "endingFish": 50.0641
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.011595135036882698,
+            "endingFish": 49.4836
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.030442409202240728,
+            "endingFish": 47.9772
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": -0.0025470431788434666,
+            "endingFish": 47.855
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 110,
+          "trend_off": 2,
+          "maximum_drawdown": 1
+        }
+      }
+    },
+    {
+      "method": "second_confirmation",
+      "scenario": "delay2_2bp_each_side",
+      "metrics": {
+        "finalFish": 48.576,
+        "netReturn": -0.02847999999999995,
+        "maxDrawdown": 0.042874657363568436,
+        "naturalTrades": 222,
+        "boundaryClosures": 1,
+        "winRate": 0.0990990990990991,
+        "profitFactor": 0.7084426229508201,
+        "averageProfitFish": -0.0064090090090090125,
+        "averageHoldingHours": 4.381561561561562,
+        "exposure": 0.11140068554131054,
+        "averageAllocation": 0.022223538338918037,
+        "feesFish": 0.4478582806946695,
+        "dailySharpe": -1.086375279892321,
+        "eligibleSignals": 988,
+        "filters": {
+          "position_or_order_busy": 330,
+          "cooldown": 435
+        },
+        "fillRiskExceedances": 0,
+        "halted": false,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": -0.0024520000000000097,
+            "endingFish": 49.8774
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.01187110795670987,
+            "endingFish": 49.2853
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.018776389714580177,
+            "endingFish": 48.3599
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": 0.0044685783055795625,
+            "endingFish": 48.576
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 220,
+          "trend_off": 1,
+          "time_limit": 1,
+          "evaluation_end": 1
+        }
+      }
+    },
+    {
+      "method": "touch",
+      "scenario": "delay5_5bp_each_side",
+      "metrics": {
+        "finalFish": 47.6099,
+        "netReturn": -0.04780200000000001,
+        "maxDrawdown": 0.050081803671189196,
+        "naturalTrades": 151,
+        "boundaryClosures": 0,
+        "winRate": 0.0728476821192053,
+        "profitFactor": 0.3992610465993063,
+        "averageProfitFish": -0.01582847682119205,
+        "averageHoldingHours": 3.6313704930095647,
+        "exposure": 0.06277230870980871,
+        "averageAllocation": 0.012525382659495285,
+        "feesFish": 0.3018348161061412,
+        "dailySharpe": -2.900173726572506,
+        "eligibleSignals": 1126,
+        "filters": {
+          "position_or_order_busy": 228,
+          "cooldown": 332,
+          "permanent_drawdown_halt": 415
+        },
+        "fillRiskExceedances": 0,
+        "halted": true,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": -0.004306000000000032,
+            "endingFish": 49.7847
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.015880380920242465,
+            "endingFish": 48.9941
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.022888470244376347,
+            "endingFish": 47.8727
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": -0.005489558767314162,
+            "endingFish": 47.6099
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 147,
+          "support_failed_during_entry": 1,
+          "time_limit": 1,
+          "trend_off": 1,
+          "maximum_drawdown": 1
+        }
+      }
+    },
+    {
+      "method": "minute_confirmation",
+      "scenario": "delay5_5bp_each_side",
+      "metrics": {
+        "finalFish": 47.7927,
+        "netReturn": -0.04414600000000002,
+        "maxDrawdown": 0.050003677325610285,
+        "naturalTrades": 81,
+        "boundaryClosures": 0,
+        "winRate": 0.07407407407407407,
+        "profitFactor": 0.18908890521675228,
+        "averageProfitFish": -0.027250617283950618,
+        "averageHoldingHours": 5.1891015089163215,
+        "exposure": 0.048115810693935696,
+        "averageAllocation": 0.00961138607597838,
+        "feesFish": 0.16231572508961395,
+        "dailySharpe": -3.5687935847287497,
+        "eligibleSignals": 521,
+        "filters": {
+          "position_or_order_busy": 74,
+          "cooldown": 78,
+          "permanent_drawdown_halt": 288
+        },
+        "fillRiskExceedances": 0,
+        "halted": true,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": -0.00036199999999997345,
+            "endingFish": 49.9819
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.015103467455218955,
+            "endingFish": 49.227
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.029136449509415407,
+            "endingFish": 47.7927
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": 0,
+            "endingFish": 47.7927
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 78,
+          "trend_off": 2,
+          "maximum_drawdown": 1
+        }
+      }
+    },
+    {
+      "method": "second_confirmation",
+      "scenario": "delay5_5bp_each_side",
+      "metrics": {
+        "finalFish": 47.6032,
+        "netReturn": -0.04793599999999998,
+        "maxDrawdown": 0.05004110890267166,
+        "naturalTrades": 125,
+        "boundaryClosures": 0,
+        "winRate": 0.08,
+        "profitFactor": 0.3091401723690659,
+        "averageProfitFish": -0.0191744,
+        "averageHoldingHours": 3.8450044444444447,
+        "exposure": 0.05502063619251119,
+        "averageAllocation": 0.010984010934931192,
+        "feesFish": 0.25028755002141545,
+        "dailySharpe": -3.076751540337192,
+        "eligibleSignals": 988,
+        "filters": {
+          "position_or_order_busy": 175,
+          "cooldown": 249,
+          "permanent_drawdown_halt": 439
+        },
+        "fillRiskExceedances": 0,
+        "halted": true,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": -0.005041999999999991,
+            "endingFish": 49.7479
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.01604087810741761,
+            "endingFish": 48.9499
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.02751180288417343,
+            "endingFish": 47.6032
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": 0,
+            "endingFish": 47.6032
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 124,
+          "maximum_drawdown": 1
+        }
+      }
+    },
+    {
+      "method": "touch",
+      "scenario": "delay5_no_extra_slippage",
+      "metrics": {
+        "finalFish": 49.7416,
+        "netReturn": -0.00516799999999995,
+        "maxDrawdown": 0.02544403567025133,
+        "naturalTrades": 233,
+        "boundaryClosures": 1,
+        "winRate": 0.0944206008583691,
+        "profitFactor": 0.9365145228215762,
+        "averageProfitFish": -0.0011163090128755385,
+        "averageHoldingHours": 4.058868621840725,
+        "exposure": 0.10831381003256003,
+        "averageAllocation": 0.02160067459682375,
+        "feesFish": 0.4752078697302189,
+        "dailySharpe": -0.1881361348357177,
+        "eligibleSignals": 1126,
+        "filters": {
+          "position_or_order_busy": 384,
+          "cooldown": 508
+        },
+        "fillRiskExceedances": 0,
+        "halted": false,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": -0.0009180000000000854,
+            "endingFish": 49.9541
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.008980243863866977,
+            "endingFish": 49.5055
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.00754057629960303,
+            "endingFish": 49.1322
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": 0.012403271174504793,
+            "endingFish": 49.7416
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 227,
+          "support_failed_during_entry": 3,
+          "time_limit": 2,
+          "trend_off": 1,
+          "evaluation_end": 1
+        }
+      }
+    },
+    {
+      "method": "minute_confirmation",
+      "scenario": "delay5_no_extra_slippage",
+      "metrics": {
+        "finalFish": 48.9188,
+        "netReturn": -0.021623999999999977,
+        "maxDrawdown": 0.045464472195199446,
+        "naturalTrades": 170,
+        "boundaryClosures": 1,
+        "winRate": 0.12941176470588237,
+        "profitFactor": 0.7233359033667437,
+        "averageProfitFish": -0.006332352941176459,
+        "averageHoldingHours": 5.710070261437904,
+        "exposure": 0.111134926994302,
+        "averageAllocation": 0.0221783157257721,
+        "feesFish": 0.3439780840522811,
+        "dailySharpe": -0.9941987893047375,
+        "eligibleSignals": 521,
+        "filters": {
+          "position_or_order_busy": 169,
+          "cooldown": 181
+        },
+        "fillRiskExceedances": 0,
+        "halted": false,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": 0.0014419999999999433,
+            "endingFish": 50.0721
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.010379033433788432,
+            "endingFish": 49.5524
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.025439736521338907,
+            "endingFish": 48.2918
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": 0.012983570709727,
+            "endingFish": 48.9188
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 167,
+          "trend_off": 3,
+          "evaluation_end": 1
+        }
+      }
+    },
+    {
+      "method": "second_confirmation",
+      "scenario": "delay5_no_extra_slippage",
+      "metrics": {
+        "finalFish": 49.3655,
+        "netReturn": -0.012689999999999979,
+        "maxDrawdown": 0.030290170388434623,
+        "naturalTrades": 222,
+        "boundaryClosures": 1,
+        "winRate": 0.0990990990990991,
+        "profitFactor": 0.8483903228878943,
+        "averageProfitFish": -0.0028680180180180163,
+        "averageHoldingHours": 4.381565315315315,
+        "exposure": 0.11140068554131054,
+        "averageAllocation": 0.02222178171369301,
+        "feesFish": 0.45074841418727285,
+        "dailySharpe": -0.47974691144367276,
+        "eligibleSignals": 988,
+        "filters": {
+          "position_or_order_busy": 330,
+          "cooldown": 435
+        },
+        "fillRiskExceedances": 0,
+        "halted": false,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": -0.0016559999999999908,
+            "endingFish": 49.9172
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.009730113067239365,
+            "endingFish": 49.4315
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.013086796880531715,
+            "endingFish": 48.7846
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": 0.011907446202285232,
+            "endingFish": 49.3655
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 220,
+          "trend_off": 1,
+          "time_limit": 1,
+          "evaluation_end": 1
+        }
+      }
+    },
+    {
+      "method": "touch",
+      "scenario": "delay15_no_extra_slippage",
+      "metrics": {
+        "finalFish": 49.8402,
+        "netReturn": -0.0031959999999999766,
+        "maxDrawdown": 0.024584339351861995,
+        "naturalTrades": 233,
+        "boundaryClosures": 1,
+        "winRate": 0.1072961373390558,
+        "profitFactor": 0.9598654763965481,
+        "averageProfitFish": -0.0006965665236051508,
+        "averageHoldingHours": 4.058937768240345,
+        "exposure": 0.10831533628408628,
+        "averageAllocation": 0.021601266419102913,
+        "feesFish": 0.4763099644219037,
+        "dailySharpe": -0.1117777239204498,
+        "eligibleSignals": 1126,
+        "filters": {
+          "position_or_order_busy": 385,
+          "cooldown": 507
+        },
+        "fillRiskExceedances": 0,
+        "halted": false,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": -0.00026799999999993496,
+            "endingFish": 49.9866
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.00815418532166623,
+            "endingFish": 49.579
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.006609653280622796,
+            "endingFish": 49.2513
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": 0.011957044788665439,
+            "endingFish": 49.8402
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 225,
+          "support_failed_during_entry": 5,
+          "time_limit": 2,
+          "trend_off": 1,
+          "evaluation_end": 1
+        }
+      }
+    },
+    {
+      "method": "minute_confirmation",
+      "scenario": "delay15_no_extra_slippage",
+      "metrics": {
+        "finalFish": 48.9363,
+        "netReturn": -0.021274000000000015,
+        "maxDrawdown": 0.04546762818413341,
+        "naturalTrades": 170,
+        "boundaryClosures": 1,
+        "winRate": 0.12941176470588237,
+        "profitFactor": 0.7288404462184015,
+        "averageProfitFish": -0.006234117647058825,
+        "averageHoldingHours": 5.710070261437904,
+        "exposure": 0.11113460902523402,
+        "averageAllocation": 0.022178489616816434,
+        "feesFish": 0.34385460486164066,
+        "dailySharpe": -0.9764267833542001,
+        "eligibleSignals": 521,
+        "filters": {
+          "position_or_order_busy": 169,
+          "cooldown": 181
+        },
+        "fillRiskExceedances": 0,
+        "halted": false,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": 0.0016780000000000683,
+            "endingFish": 50.0839
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.010558283200788998,
+            "endingFish": 49.5551
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.025091262049718455,
+            "endingFish": 48.3117
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": 0.012928545259222934,
+            "endingFish": 48.9363
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 167,
+          "trend_off": 3,
+          "evaluation_end": 1
+        }
+      }
+    },
+    {
+      "method": "second_confirmation",
+      "scenario": "delay15_no_extra_slippage",
+      "metrics": {
+        "finalFish": 49.4005,
+        "netReturn": -0.011989999999999945,
+        "maxDrawdown": 0.02947323540135438,
+        "naturalTrades": 221,
+        "boundaryClosures": 1,
+        "winRate": 0.10407239819004525,
+        "profitFactor": 0.8556283130651701,
+        "averageProfitFish": -0.002723529411764705,
+        "averageHoldingHours": 4.40118652589241,
+        "exposure": 0.11139515287952788,
+        "averageAllocation": 0.022220784560915325,
+        "feesFish": 0.4491033893827318,
+        "dailySharpe": -0.45326044912571395,
+        "eligibleSignals": 988,
+        "filters": {
+          "position_or_order_busy": 330,
+          "cooldown": 436
+        },
+        "fillRiskExceedances": 0,
+        "halted": false,
+        "quarters": [
+          {
+            "endExclusive": "2026-01-01T00:00:00.000Z",
+            "netReturn": -0.0018479999999999608,
+            "endingFish": 49.9076
+          },
+          {
+            "endExclusive": "2026-04-01T00:00:00.000Z",
+            "netReturn": -0.009054733146855454,
+            "endingFish": 49.4557
+          },
+          {
+            "endExclusive": "2026-07-01T00:00:00.000Z",
+            "netReturn": -0.012621396522544459,
+            "endingFish": 48.8315
+          },
+          {
+            "endExclusive": "2026-10-01T00:00:00.000Z",
+            "netReturn": 0.011652314592015545,
+            "endingFish": 49.4005
+          }
+        ],
+        "reasons": {
+          "structural_or_trailing_stop": 218,
+          "trend_off": 1,
+          "support_failed_during_entry": 1,
+          "time_limit": 1,
+          "evaluation_end": 1
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "One previously researched BTC year; ETH not tested; no independent out-of-sample evidence.",
+    "Delay/slippage are sensitivity assumptions, not measured platform distributions.",
+    "1s close triggers; stops detect completed 1s lows then execute after delay; intrasecond ordering unknown.",
+    "No API failures, outages, rate-limit rejections or session expiry simulation. No live adapter.",
+    "Order amount fixed at submission; delayed fills may exceed planned risk; no hindsight cancellation.",
+    "Quarter figures describe one continuous portfolio, not reset or pristine test folds."
+  ]
+}

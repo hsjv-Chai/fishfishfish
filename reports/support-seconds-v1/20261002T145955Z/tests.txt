@@ -1,0 +1,19 @@
+✔ site settlement: one closing fee, flooring, no opening fee (0.703833ms)
+✔ EMA seed and Wilder ATR use preceding closes (0.295333ms)
+✔ pivot unavailable before two right bars complete; equal lows excluded (0.060666ms)
+✔ 4h fact cannot be read at 14:30 from the bar ending at 16:00 (0.059542ms)
+✔ seconds confirmation excludes current high and waits since latest low (0.100375ms)
+✔ sizing respects total capital, allocation, planned loss and minimum fish (0.064417ms)
+✔ market buy executes at delayed price, not trigger price or future favourable low (1.11475ms)
+✔ support fails while market buy in flight: fill still occurs, then delayed exit (0.158542ms)
+✔ stop gap is sold at delayed observed price rather than ideal stop price (0.134042ms)
+✔ future high inside entry second cannot stop a position before it exists (0.187833ms)
+✔ event generation prefix invariant when unseen future prices change (0.456792ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 40.116458

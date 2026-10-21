@@ -1,0 +1,17 @@
+✔ 100x fees and zero clamp match website, not unleveraged settlement (0.67225ms)
+✔ 10% means net margin profit, not underlying change or gross leveraged gain (0.060083ms)
+✔ five full seconds below support, 1bp range, and prior decline all required (0.103375ms)
+✔ entry is delayed, target crossing only requests sale, later fill determines profit (0.375959ms)
+✔ a profitable candle high cannot trigger sale if its observable close did not hit target (0.080625ms)
+✔ liquidation is checked on venue phase, not every intrasecond low (0.110084ms)
+✔ venue scan crossing liquidates with total margin loss; no debt (0.057417ms)
+✔ liquidation can win the race against an in-flight profit sale (0.051916ms)
+✔ entry-second earlier low cannot liquidate a position that did not exist then (0.067916ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 42.715209

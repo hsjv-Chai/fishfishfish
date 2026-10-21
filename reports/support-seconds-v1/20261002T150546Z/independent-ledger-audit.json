@@ -1,0 +1,124 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "method": "touch",
+      "scenario": "delay2_no_extra_slippage",
+      "trades": 234,
+      "finalFish": 49.8028,
+      "status": "passed"
+    },
+    {
+      "method": "minute_confirmation",
+      "scenario": "delay2_no_extra_slippage",
+      "trades": 171,
+      "finalFish": 48.9686,
+      "status": "passed"
+    },
+    {
+      "method": "second_confirmation",
+      "scenario": "delay2_no_extra_slippage",
+      "trades": 223,
+      "finalFish": 49.45,
+      "status": "passed"
+    },
+    {
+      "method": "touch",
+      "scenario": "delay2_2bp_each_side",
+      "trades": 234,
+      "finalFish": 48.879,
+      "status": "passed"
+    },
+    {
+      "method": "minute_confirmation",
+      "scenario": "delay2_2bp_each_side",
+      "trades": 113,
+      "finalFish": 47.855,
+      "status": "passed"
+    },
+    {
+      "method": "second_confirmation",
+      "scenario": "delay2_2bp_each_side",
+      "trades": 223,
+      "finalFish": 48.576,
+      "status": "passed"
+    },
+    {
+      "method": "touch",
+      "scenario": "delay5_5bp_each_side",
+      "trades": 151,
+      "finalFish": 47.6099,
+      "status": "passed"
+    },
+    {
+      "method": "minute_confirmation",
+      "scenario": "delay5_5bp_each_side",
+      "trades": 81,
+      "finalFish": 47.7927,
+      "status": "passed"
+    },
+    {
+      "method": "second_confirmation",
+      "scenario": "delay5_5bp_each_side",
+      "trades": 125,
+      "finalFish": 47.6032,
+      "status": "passed"
+    },
+    {
+      "method": "touch",
+      "scenario": "delay5_no_extra_slippage",
+      "trades": 234,
+      "finalFish": 49.7416,
+      "status": "passed"
+    },
+    {
+      "method": "minute_confirmation",
+      "scenario": "delay5_no_extra_slippage",
+      "trades": 171,
+      "finalFish": 48.9188,
+      "status": "passed"
+    },
+    {
+      "method": "second_confirmation",
+      "scenario": "delay5_no_extra_slippage",
+      "trades": 223,
+      "finalFish": 49.3655,
+      "status": "passed"
+    },
+    {
+      "method": "touch",
+      "scenario": "delay15_no_extra_slippage",
+      "trades": 234,
+      "finalFish": 49.8402,
+      "status": "passed"
+    },
+    {
+      "method": "minute_confirmation",
+      "scenario": "delay15_no_extra_slippage",
+      "trades": 171,
+      "finalFish": 48.9363,
+      "status": "passed"
+    },
+    {
+      "method": "second_confirmation",
+      "scenario": "delay15_no_extra_slippage",
+      "trades": 222,
+      "finalFish": 49.4005,
+      "status": "passed"
+    }
+  ],
+  "verifiedLedgerCount": 15,
+  "frozenPolicyUnchanged": true,
+  "verifiedConstraints": [
+    "cash ledger",
+    "signal and support identity",
+    "single use",
+    "buy and sell delay",
+    "cooldown",
+    "allocation",
+    "submission risk",
+    "flooring",
+    "monotone curve",
+    "drawdown consistency"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "startedAt": "2026-10-02T15:28:59.752Z",
+  "policy": {
+    "version": "support-platform-100x-v1",
+    "symbol": "BTCUSDT",
+    "dataStart": "2026-08-31T00:00:00Z",
+    "evaluationStart": "2026-09-01T00:00:00Z",
+    "evaluationEndExclusive": "2026-10-01T00:00:00Z",
+    "startingFish": 50,
+    "stakeFish": 1,
+    "leverage": 100,
+    "fee": 0.0002,
+    "targetNetMarginReturn": 0.1,
+    "primaryTrendFilter": false,
+    "trend": {
+      "intervalSeconds": 14400,
+      "fastEMA": 50,
+      "slowEMA": 200
+    },
+    "support": {
+      "intervalSeconds": 900,
+      "pivotLeft": 2,
+      "pivotRight": 2,
+      "maximumAgeBars": 96,
+      "atrPeriod": 14,
+      "zoneHalfATR": 0.25,
+      "maximumWaitingSeconds": 1800
+    },
+    "platform": {
+      "seconds": 5,
+      "maximumRangeFraction": 0.0001
+    },
+    "precedingDecline": {
+      "seconds": 30,
+      "minimumFraction": 0
+    },
+    "manualStop": null,
+    "maximumHoldingSeconds": null,
+    "cooldownSeconds": 0,
+    "dailyLossHalt": null,
+    "maximumDrawdownHalt": null,
+    "maximumPositions": 1,
+    "oneTradePerSupport": true,
+    "liquidationIntervalSeconds": 15,
+    "primaryLiquidationPhaseSeconds": 0,
+    "scenarios": [
+      {
+        "name": "delay2_no_extra_slippage",
+        "delaySeconds": 2,
+        "slippagePerSide": 0
+      },
+      {
+        "name": "delay2_2bp_each_side",
+        "delaySeconds": 2,
+        "slippagePerSide": 0.0002
+      },
+      {
+        "name": "delay5_5bp_each_side",
+        "delaySeconds": 5,
+        "slippagePerSide": 0.0005
+      },
+      {
+        "name": "delay5_no_extra_slippage",
+        "delaySeconds": 5,
+        "slippagePerSide": 0
+      }
+    ],
+    "evidenceStatus": "exploratory_previously_viewed_month_no_optimization"
+  },
+  "sourceHashes": {
+    "policy.json": "066ac0ad6315ee6ea681eac6c9aec767e05d967bba63ff0e7c58ca0b7824280b",
+    "strategy.mjs": "f410301b791c58d2b0ccc344051ea245fd382b06a1453e95178387d23e372fa2",
+    "strategy.test.mjs": "73da4fe7d16119fcaee7ab2d84fde281e057100146acf46cb548d7c3ac99952c",
+    "run.mjs": "126301915aafdcf10af42da4c4f0ccb0ff231387d8a233a689f9a9c898308ebd",
+    "../support-seconds-v1/strategy.mjs": "a256b1ff06d5482707264142028120d4e65a45f8ab4427c35522dabd762f734a"
+  },
+  "statement": "User specified 5s/0.01% platform and any negative preceding 30s return. Fixed before results, no optimization."
+}

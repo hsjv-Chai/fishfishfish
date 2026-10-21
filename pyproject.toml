@@ -11,6 +11,7 @@ dependencies = []
 
 [project.scripts]
 fishbot = "fishbot.cli:main"
+fishbot-v2 = "fishbot_v2.cli:main"
 
 [tool.setuptools.packages.find]
-include = ["fishbot*"]
+include = ["fishbot*", "fishbot_v2*"]

@@ -1,0 +1,77 @@
+{
+  "symbol": "BTCUSDT",
+  "seconds": 31536000,
+  "start": "2025-10-01T00:00:00Z",
+  "endExclusive": "2026-10-01T00:00:00Z",
+  "indexTimelineOrigin": "pinned from existing downloader job list; original timestamps not retained",
+  "firstClose": 114060.34375,
+  "lastClose": 83623.6015625,
+  "hourly": {
+    "compared": 8760,
+    "fields": [
+      "high",
+      "low",
+      "close"
+    ],
+    "toleranceUSD": 0.02,
+    "maximumDifferenceUSD": 0.0037500000034924597
+  },
+  "fourHourly": {
+    "compared": 2190,
+    "fields": [
+      "high",
+      "low",
+      "close"
+    ],
+    "toleranceUSD": 0.02,
+    "maximumDifferenceUSD": 0.0037500000034924597
+  },
+  "sha256": {
+    "/Users/hsjv/Documents/lianghua/data/btc_1s/close.f32": "c8566b7a192072a9c00ca380ce2027b31193089b1a47fa54e9b0676508f839c7",
+    "/Users/hsjv/Documents/lianghua/data/btc_1s/high.f32": "bea8cac7856bb243ab56839061b2cb2f41a78b50a0a1afa2a37289389ee83767",
+    "/Users/hsjv/Documents/lianghua/data/btc_1s/low.f32": "e8b3f357108be6aa395e160ee6df0a14d99276b89b128263ee9d8b5c2bbb49d7",
+    "/Users/hsjv/Documents/lianghua/backtest/data/btc_1h_klines.json": "37496dc57471cfe118d994f265e32dab7daafb906d96b254c864fd978c21161f",
+    "/Users/hsjv/Documents/lianghua/backtest/data/btc_4h_klines.json": "ac30bec9af7bf91436b716644c82f92a67f9804d40bf2451c00e33e5e9459e44",
+    "/Users/hsjv/Documents/lianghua/data/btc_1s/meta.json": "72c76e193b563af6e06ecd551a0aa5e57447b7da5f3d45d05800d3784adb4dce",
+    "/Users/hsjv/Documents/lianghua/data/btc_1s/fetch_1s.mjs": "31d65ec5fab84420177f22a2ce8ea85b021d8cc96db82824fb2651fb438127f6",
+    "/Users/hsjv/Documents/ChatGPT/fishfishfish/data/support-seconds-v1/spotcheck-20261002.json": "35c529aec0d2ab44bcad22fdfce11079e1e3c750224d8018aaaa1376447c6fc2"
+  },
+  "originalArchiveChecksumsIndependentlyVerified": false,
+  "limitations": [
+    "Original ZIP checksums and per-second timestamps were not preserved.",
+    "Old importer has a gap-counter bug; aggregation consistency is corroboration, not proof of every timestamp.",
+    "Float32 rounding; 1s OHLC without intrasecond ordering; last traded price is not a measured site fill."
+  ],
+  "originalArchiveSpotCheck": {
+    "kind": "three_day_spotcheck_not_full_year_verification",
+    "days": [
+      {
+        "day": "2025-10-01",
+        "status": "unverified",
+        "source": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1s/BTCUSDT-1s-2025-10-01.zip",
+        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+      },
+      {
+        "day": "2026-03-15",
+        "status": "verified",
+        "source": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1s/BTCUSDT-1s-2026-03-15.zip",
+        "sha256": "0d513c2807619f0bad31fb7c43fe647af7c7287396451567ba5e35c8aed408e5",
+        "rows": 86400,
+        "timeline_contiguous": true,
+        "exact_float32_fields": [
+          "close",
+          "high",
+          "low"
+        ]
+      },
+      {
+        "day": "2026-09-30",
+        "status": "unverified",
+        "source": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1s/BTCUSDT-1s-2026-09-30.zip",
+        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+      }
+    ],
+    "verified_seconds": 86400,
+    "full_year_original_timestamps_verified": false
+  }
+}

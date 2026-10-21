@@ -1,0 +1,87 @@
+{
+  "development": {
+    "metrics": {
+      "net_return": -0.026773999999999964,
+      "max_drawdown": 0.05019060092479999,
+      "trades": 96,
+      "boundary_closures": 0,
+      "daily_sharpe": -0.823173917756259,
+      "exposure": 0.2023820395738204,
+      "final_fish": 48.6613
+    },
+    "exit_reasons": {
+      "breakdown": 39,
+      "stop": 56,
+      "max_drawdown": 1
+    },
+    "attribution": {
+      "breakdown": {
+        "trades": 39,
+        "profit": 1.106
+      },
+      "max_drawdown": {
+        "trades": 1,
+        "profit": -0.0669
+      },
+      "stop": {
+        "trades": 56,
+        "profit": -2.3778
+      }
+    }
+  },
+  "validation": {
+    "metrics": {
+      "net_return": -0.014175999999999966,
+      "max_drawdown": 0.018353834247558765,
+      "trades": 12,
+      "boundary_closures": 0,
+      "daily_sharpe": -2.5359346287288442,
+      "exposure": 0.03071669736034377,
+      "final_fish": 49.2912
+    },
+    "exit_reasons": {
+      "stop": 9,
+      "breakdown": 3
+    },
+    "attribution": {
+      "breakdown": {
+        "trades": 3,
+        "profit": 0.1656
+      },
+      "stop": {
+        "trades": 9,
+        "profit": -0.8744
+      }
+    }
+  },
+  "test": {
+    "metrics": {
+      "net_return": 0.006318000000000046,
+      "max_drawdown": 0.017426417161983454,
+      "trades": 25,
+      "boundary_closures": 1,
+      "daily_sharpe": 0.5493006345232737,
+      "exposure": 0.12893644323671496,
+      "final_fish": 50.3159
+    },
+    "exit_reasons": {
+      "stop": 20,
+      "breakdown": 5,
+      "evaluation_end": 1
+    },
+    "attribution": {
+      "breakdown": {
+        "trades": 5,
+        "profit": -0.0773
+      },
+      "evaluation_end": {
+        "trades": 1,
+        "profit": -0.0494
+      },
+      "stop": {
+        "trades": 20,
+        "profit": 0.4426
+      }
+    }
+  }
+}
