@@ -149,14 +149,20 @@ def parse_positions_page(html):
         raise SchemaError("site trading rules changed")
     seen = set()
     for p in props["positions"]:
-        if not isinstance(p, dict) or not {"id", "symbol", "stake", "entryPrice", "leverage"} <= p.keys():
+        if not isinstance(p, dict) or not {"id", "symbol", "direction", "stake", "entryPrice",
+                                           "leverage", "liquidationPrice"} <= p.keys():
             raise SchemaError()
         if not isinstance(p["id"], str) or not p["id"] or p["id"] in seen:
             raise SchemaError()
         seen.add(p["id"])
         fish_units(p["stake"])
         number(p["entryPrice"], True)
-        if p["symbol"] not in {"BTCUSDT", "ETHUSDT"} or p["leverage"] not in (1, 2, 3, 5, 10, 20, 100):
+        number(p["liquidationPrice"])
+        leverage = p["leverage"]
+        if (p["symbol"] not in {"BTCUSDT", "ETHUSDT"} or
+                p["direction"] not in {"long", "short"} or
+                isinstance(leverage, bool) or not isinstance(leverage, int) or
+                not 1 <= leverage <= 100):
             raise SchemaError()
     return {"balance": fish_units(props["balance"]), "positions": props["positions"]}
 
@@ -258,18 +264,26 @@ class Site:
         return page
 
     def buy(self, order):
+        direction = order.get("direction", "long")
+        leverage = order.get("leverage", 1)
         data = self.call("/api/fish/trade/buy", dict(symbol="BTCUSDT", amount=order["stake"] / 10000,
-                         leverage=1, idempotency_key=order["key"]))
+                         leverage=leverage, direction=direction,
+                         idempotency_key=order["key"]))
         p = data.get("position", {})
-        if (p.get("symbol") != "BTCUSDT" or p.get("leverage") != 1 or
-                fish_units(p.get("stake")) != order["stake"] or not isinstance(p.get("id"), str)):
+        if (p.get("symbol") != "BTCUSDT" or p.get("direction") != direction or
+                p.get("leverage") != leverage or
+                fish_units(p.get("stake")) != order["stake"] or
+                not isinstance(p.get("id"), str) or not p.get("id")):
             raise SchemaError("buy receipt mismatch")
         number(p.get("entry_price"), True)
+        number(p.get("liquidation_price"))
         return data
 
     def sell(self, position_id):
         data = self.call("/api/fish/trade/sell", {"position_id": position_id})
-        if data.get("position_id") != position_id or data.get("symbol") != "BTCUSDT":
+        if (data.get("position_id") != position_id or data.get("symbol") != "BTCUSDT" or
+                data.get("direction") not in {"long", "short"} or
+                not isinstance(data.get("liquidated", False), bool)):
             raise SchemaError("sell receipt mismatch")
         fish_units(data.get("payout"))
         number(data.get("exit_price"), True)

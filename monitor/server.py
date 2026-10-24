@@ -122,7 +122,8 @@ def snapshot(database, evidence, tests, window='24h', now=None):
         eq = latest['units'] if latest else None
         high = s.get('high_water', 500000)
         position = s.get('position')
-        p = ({k: position.get(k) for k in ('stake', 'entry', 'stop', 'peak', 'opened')} if position else None)
+        p = ({k: position.get(k) for k in ('stake', 'entry', 'stop', 'peak', 'opened',
+                                            'direction', 'leverage', 'liquidation')} if position else None)
         pending = s.get('pending')
         gates, reports = evidence_gates(evidence, kv.get('code_sha256'), test_fingerprint(tests), s, healthy, now)
         statistics = dict(cash=s.get('cash', 0) / 10000, equity=eq / 10000 if eq is not None else None,

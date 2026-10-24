@@ -25,7 +25,16 @@ EMA 用前 N 项算术平均初始化，然后递推 `EMA += 2/(N+1) × (close-E
 7. 对账核对账户余额变动与新流水总和；交易流水必须属于已知仓位。非交易流水只更新账户对账基线，不更新策略现金。
 8. 余额不足以覆盖策略现金时停止。外部存款不会自动扩充 50 条策略预算，策略交易盈利会自然增加后续风险计算基数。
 
-接口响应需 `code:200`；HTTP 错误不降级为成功。交易 API 不接受客户端指定成交价格。只使用 BTCUSDT / leverage=1；无做空、部分平仓或挂单。
+接口响应需 `code:200`；HTTP 错误不降级为成功。交易 API 不接受客户端指定成交价格。站点自 2026-10 起支持 `direction=long|short` 与 1–100 的整数杠杆；本实现的接口层会校验方向、倍数和爆仓价，并按方向结算。**V1 策略仍只使用 BTCUSDT / 1 倍多头**，不会主动开空；无部分平仓或挂单。
+
+方向与杠杆的协议细节：
+
+- 开仓 `POST /api/fish/trade/buy` 接受 `{symbol, amount, leverage?, direction?, idempotency_key?}`；`direction` 缺省为 `long`，`leverage` 缺省为 1。幂等键不含方向和倍数，同一键重试回报的是首次成交的真实形状。
+- 平仓 `POST /api/fish/trade/sell` 只接受 `{position_id}`，方向从仓位行读取。响应含 `direction` 与 `liquidated`。
+- 结算：`notional = stake × leverage`；多头 `move = exit/entry − 1`，空头 `move = 1 − exit/entry`；`payout = max(0, floor(stake + notional × move − notional × (exit/entry) × 0.0002))`。
+- 爆仓价：多头 `entry × (1 − 1/L)`；空头 `entry × (1 + 1/L)`。1× 多头没有可达爆仓价（0），**1× 空头有**（2× entry）。
+- 爆仓按固定爆仓价结算为 0，不产生 `market_sell` 流水；只有存在持久化卖出意图时，重放 sell 取得权威的 `liquidated` 结果。没有卖出意图的持仓消失仍按未知外部平仓停机复核。
+- 开仓杠杆与方向是仓位的固定属性；V1 只读/对账路径不能把它们当成可变参数。后续 v3 策略若启用做空或杠杆，必须重新回测、重新累计影子并重新通过门槛。
 
 ## 故障与恢复
 
